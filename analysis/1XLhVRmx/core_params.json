@@ -1,7 +1,48 @@
 {
   "inputDatasetSmartName": "usage_by_Asset",
   "script": {
-    "steps": [],
+    "steps": [
+      {
+        "type": "CreateColumnWithGREL",
+        "params": {
+          "column": "distance",
+          "expression": "Use_max - Use_min"
+        },
+        "metaType": "PROCESSOR",
+        "preview": false,
+        "disabled": false,
+        "alwaysShowComment": false
+      },
+      {
+        "type": "ColumnRenamer",
+        "params": {
+          "renamings": [
+            {
+              "from": "count",
+              "to": "measures_count"
+            }
+          ]
+        },
+        "metaType": "PROCESSOR",
+        "preview": false,
+        "disabled": false,
+        "alwaysShowComment": false
+      },
+      {
+        "type": "ColumnsSelector",
+        "params": {
+          "keep": false,
+          "appliesTo": "SINGLE_COLUMN",
+          "columns": [
+            "Use_max"
+          ]
+        },
+        "metaType": "PROCESSOR",
+        "preview": false,
+        "disabled": false,
+        "alwaysShowComment": false
+      }
+    ],
     "maxProcessedMemTableBytes": -1,
     "columnsSelection": {
       "mode": "ALL"
@@ -39,7 +80,9 @@
       "autoRefreshSample": false,
       "_refreshTrigger": 0
     },
-    "exploreUIParams": {},
+    "exploreUIParams": {
+      "autoRefresh": true
+    },
     "globalSearchQuery": "",
     "explorationFilters": [],
     "previewMode": "ALL_ROWS"
@@ -47,11 +90,11 @@
   "charts": [],
   "name": "Analyze usage_by_Asset",
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1519043332500
+    "lastModifiedOn": 1519043609035
   },
   "creationTag": {
     "versionNumber": 0,
