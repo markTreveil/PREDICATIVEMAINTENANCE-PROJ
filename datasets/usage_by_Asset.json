@@ -28,11 +28,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1519039879586
+    "lastModifiedOn": 1519039912852
   },
   "creationTag": {
     "versionNumber": 0,
@@ -62,6 +62,24 @@
       {
         "name": "Asset",
         "type": "string",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "Time_min",
+        "type": "int",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "Use_min",
+        "type": "float",
+        "timestampNoTzAsDate": false,
+        "maxLength": -1
+      },
+      {
+        "name": "Use_max",
+        "type": "float",
         "timestampNoTzAsDate": false,
         "maxLength": -1
       },
