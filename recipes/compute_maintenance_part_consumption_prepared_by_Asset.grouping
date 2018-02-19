@@ -1,0 +1,222 @@
+{
+  "preFilter": {
+    "distinct": false,
+    "enabled": false
+  },
+  "keys": [
+    {
+      "column": "Asset"
+    }
+  ],
+  "values": [
+    {
+      "last": false,
+      "max": false,
+      "firstLastNotNull": false,
+      "column": "R417",
+      "count": false,
+      "sum": false,
+      "concat": false,
+      "concatDistinct": false,
+      "sum2": false,
+      "min": false,
+      "countDistinct": false,
+      "avg": false,
+      "stddev": false,
+      "first": false
+    },
+    {
+      "last": false,
+      "max": false,
+      "firstLastNotNull": false,
+      "column": "R707",
+      "count": false,
+      "sum": false,
+      "concat": false,
+      "concatDistinct": false,
+      "sum2": false,
+      "min": false,
+      "countDistinct": false,
+      "avg": false,
+      "stddev": false,
+      "first": false
+    },
+    {
+      "last": false,
+      "max": false,
+      "firstLastNotNull": false,
+      "column": "R193",
+      "count": false,
+      "sum": false,
+      "concat": false,
+      "concatDistinct": false,
+      "sum2": false,
+      "min": false,
+      "countDistinct": false,
+      "avg": false,
+      "stddev": false,
+      "first": false
+    },
+    {
+      "last": false,
+      "max": false,
+      "firstLastNotNull": false,
+      "column": "R565",
+      "count": false,
+      "sum": false,
+      "concat": false,
+      "concatDistinct": false,
+      "sum2": false,
+      "min": false,
+      "countDistinct": false,
+      "avg": false,
+      "stddev": false,
+      "first": false
+    },
+    {
+      "last": false,
+      "max": false,
+      "firstLastNotNull": false,
+      "column": "R783",
+      "count": false,
+      "sum": false,
+      "concat": false,
+      "concatDistinct": false,
+      "sum2": false,
+      "min": false,
+      "countDistinct": false,
+      "avg": false,
+      "stddev": false,
+      "first": false
+    },
+    {
+      "last": false,
+      "max": false,
+      "firstLastNotNull": false,
+      "column": "R364",
+      "count": false,
+      "sum": false,
+      "concat": false,
+      "concatDistinct": false,
+      "sum2": false,
+      "min": false,
+      "countDistinct": false,
+      "avg": false,
+      "stddev": false,
+      "first": false
+    },
+    {
+      "last": false,
+      "max": false,
+      "firstLastNotNull": false,
+      "column": "R446",
+      "count": false,
+      "sum": false,
+      "concat": false,
+      "concatDistinct": false,
+      "sum2": false,
+      "min": false,
+      "countDistinct": false,
+      "avg": false,
+      "stddev": false,
+      "first": false
+    },
+    {
+      "last": false,
+      "max": false,
+      "firstLastNotNull": false,
+      "column": "R119",
+      "count": false,
+      "sum": false,
+      "concat": false,
+      "concatDistinct": false,
+      "sum2": false,
+      "min": false,
+      "countDistinct": false,
+      "avg": false,
+      "stddev": false,
+      "first": false
+    },
+    {
+      "last": false,
+      "max": false,
+      "firstLastNotNull": false,
+      "column": "R044",
+      "count": false,
+      "sum": false,
+      "concat": false,
+      "concatDistinct": false,
+      "sum2": false,
+      "min": false,
+      "countDistinct": false,
+      "avg": false,
+      "stddev": false,
+      "first": false
+    },
+    {
+      "last": false,
+      "max": false,
+      "firstLastNotNull": false,
+      "column": "R575",
+      "count": false,
+      "sum": false,
+      "concat": false,
+      "concatDistinct": false,
+      "sum2": false,
+      "min": false,
+      "countDistinct": false,
+      "avg": false,
+      "stddev": false,
+      "first": false
+    },
+    {
+      "last": false,
+      "max": false,
+      "firstLastNotNull": false,
+      "column": "R606",
+      "count": false,
+      "sum": false,
+      "concat": false,
+      "concatDistinct": false,
+      "sum2": false,
+      "min": false,
+      "countDistinct": false,
+      "avg": false,
+      "stddev": false,
+      "first": false
+    }
+  ],
+  "globalCount": true,
+  "engineParams": {
+    "hive": {
+      "skipPrerunValidate": false,
+      "hiveconf": [],
+      "inheritConf": "default",
+      "addDkuUdf": false,
+      "executionEngine": "HIVECLI_LOCAL"
+    },
+    "impala": {
+      "forceStreamMode": true
+    },
+    "lowerCaseSchemaIfEngineRequiresIt": true,
+    "sparkSQL": {
+      "pipelineAllowMerge": true,
+      "useGlobalMetastore": false,
+      "pipelineAllowStart": true,
+      "readParams": {
+        "map": {}
+      },
+      "overwriteOutputSchema": false,
+      "sparkConfig": {
+        "inheritConf": "default",
+        "conf": []
+      }
+    }
+  },
+  "enlargeYourBits": true,
+  "computedColumns": [],
+  "postFilter": {
+    "distinct": false,
+    "enabled": false
+  }
+}
