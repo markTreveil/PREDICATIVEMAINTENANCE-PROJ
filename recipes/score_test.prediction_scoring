@@ -15,6 +15,6 @@
   "outputProbabilities": true,
   "forceOriginalEngine": false,
   "sparkRepartitionNonHDFS": 1,
-  "forcedClassifierThreshold": 0.0,
+  "forcedClassifierThreshold": 0,
   "overrideModelSpecifiedThreshold": false
 }
