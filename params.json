@@ -126,6 +126,13 @@
       "checks": []
     }
   },
+  "versionTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1519039441709
+  },
   "creationTag": {
     "versionNumber": 0,
     "lastModifiedBy": {
