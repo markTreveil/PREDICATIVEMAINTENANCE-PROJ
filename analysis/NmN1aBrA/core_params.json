@@ -1,7 +1,38 @@
 {
   "inputDatasetSmartName": "maintenance_part_consumption",
   "script": {
-    "steps": [],
+    "steps": [
+      {
+        "type": "Pivot",
+        "params": {
+          "indexColumn": "Asset",
+          "labelsColumn": "Reason",
+          "valuesColumn": "Quantity",
+          "otherColumnsAction": "KEEP_IF_CONSTANT"
+        },
+        "metaType": "PROCESSOR",
+        "preview": false,
+        "disabled": false,
+        "alwaysShowComment": false
+      },
+      {
+        "type": "ColumnsSelector",
+        "params": {
+          "keep": false,
+          "appliesTo": "COLUMNS",
+          "columns": [
+            "Quantity",
+            "Part",
+            "Reason",
+            "Time"
+          ]
+        },
+        "metaType": "PROCESSOR",
+        "preview": false,
+        "disabled": false,
+        "alwaysShowComment": false
+      }
+    ],
     "maxProcessedMemTableBytes": -1,
     "columnsSelection": {
       "mode": "ALL"
@@ -39,7 +70,9 @@
       "autoRefreshSample": false,
       "_refreshTrigger": 0
     },
-    "exploreUIParams": {},
+    "exploreUIParams": {
+      "autoRefresh": true
+    },
     "globalSearchQuery": "",
     "explorationFilters": [],
     "previewMode": "ALL_ROWS"
@@ -47,11 +80,11 @@
   "charts": [],
   "name": "Analyze maintenance_part_consumption",
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1519043738846
+    "lastModifiedOn": 1519043963712
   },
   "creationTag": {
     "versionNumber": 0,
