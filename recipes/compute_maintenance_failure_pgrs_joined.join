@@ -6,33 +6,144 @@
       "conditionsMode": "AND",
       "type": "LEFT",
       "outerJoinOnTheLeft": true,
-      "on": []
+      "on": [
+        {
+          "column1": {
+            "name": "Asset",
+            "table": 0
+          },
+          "dateDiffUnit": "DAY",
+          "column2": {
+            "name": "Asset",
+            "table": 1
+          },
+          "maxMatches": 1,
+          "caseInsensitive": false,
+          "maxDistance": 0,
+          "normalizeText": false,
+          "type": "EQ",
+          "strict": false
+        }
+      ]
+    },
+    {
+      "table2": 2,
+      "table1": 1,
+      "conditionsMode": "AND",
+      "rightLimit": {},
+      "type": "LEFT",
+      "outerJoinOnTheLeft": true,
+      "on": [
+        {
+          "column1": {
+            "name": "Asset",
+            "table": 1
+          },
+          "dateDiffUnit": "DAY",
+          "column2": {
+            "name": "Asset",
+            "table": 2
+          },
+          "maxMatches": 1,
+          "caseInsensitive": false,
+          "maxDistance": 0,
+          "normalizeText": false,
+          "type": "EQ",
+          "strict": false
+        }
+      ]
     }
   ],
   "selectedColumns": [
     {
       "name": "Asset",
+      "type": "string",
       "table": 0
     },
     {
       "name": "failure_bin",
+      "type": "bigint",
       "table": 0
     },
     {
       "name": "Time_min",
+      "type": "bigint",
       "table": 1
     },
     {
       "name": "Use_min",
+      "type": "double",
       "table": 1
     },
     {
       "name": "distance",
+      "type": "double",
       "table": 1
     },
     {
       "name": "measures_count",
+      "type": "bigint",
       "table": 1
+    },
+    {
+      "name": "R417_sum",
+      "type": "bigint",
+      "table": 2
+    },
+    {
+      "name": "R707_sum",
+      "type": "bigint",
+      "table": 2
+    },
+    {
+      "name": "R193_sum",
+      "type": "bigint",
+      "table": 2
+    },
+    {
+      "name": "R565_sum",
+      "type": "bigint",
+      "table": 2
+    },
+    {
+      "name": "R783_sum",
+      "type": "bigint",
+      "table": 2
+    },
+    {
+      "name": "R364_sum",
+      "type": "bigint",
+      "table": 2
+    },
+    {
+      "name": "R446_sum",
+      "type": "bigint",
+      "table": 2
+    },
+    {
+      "name": "R119_sum",
+      "type": "bigint",
+      "table": 2
+    },
+    {
+      "name": "R044_sum",
+      "type": "bigint",
+      "table": 2
+    },
+    {
+      "name": "R575_sum",
+      "type": "bigint",
+      "table": 2
+    },
+    {
+      "name": "R606_sum",
+      "type": "bigint",
+      "table": 2
+    },
+    {
+      "name": "count",
+      "type": "bigint",
+      "table": 2
     }
   ],
   "engineParams": {
@@ -79,7 +190,128 @@
       "autoSelectColumns": false,
       "index": 1,
       "computedColumns": []
+    },
+    {
+      "index": 2
     }
   ],
+  "computedColumns": [],
+  "postFilter": {
+    "$status": {
+      "schema": {
+        "columns": [
+          {
+            "timestampNoTzAsDate": false,
+            "name": "Asset",
+            "type": "string",
+            "maxLength": -1
+          },
+          {
+            "timestampNoTzAsDate": false,
+            "name": "failure_bin",
+            "type": "bigint",
+            "maxLength": -1
+          },
+          {
+            "timestampNoTzAsDate": false,
+            "name": "Time_min",
+            "type": "bigint",
+            "maxLength": -1
+          },
+          {
+            "timestampNoTzAsDate": false,
+            "name": "Use_min",
+            "type": "double",
+            "maxLength": -1
+          },
+          {
+            "timestampNoTzAsDate": false,
+            "name": "distance",
+            "type": "double",
+            "maxLength": -1
+          },
+          {
+            "timestampNoTzAsDate": false,
+            "name": "measures_count",
+            "type": "bigint",
+            "maxLength": -1
+          },
+          {
+            "timestampNoTzAsDate": false,
+            "name": "R417_sum",
+            "type": "bigint",
+            "maxLength": -1
+          },
+          {
+            "timestampNoTzAsDate": false,
+            "name": "R707_sum",
+            "type": "bigint",
+            "maxLength": -1
+          },
+          {
+            "timestampNoTzAsDate": false,
+            "name": "R193_sum",
+            "type": "bigint",
+            "maxLength": -1
+          },
+          {
+            "timestampNoTzAsDate": false,
+            "name": "R565_sum",
+            "type": "bigint",
+            "maxLength": -1
+          },
+          {
+            "timestampNoTzAsDate": false,
+            "name": "R783_sum",
+            "type": "bigint",
+            "maxLength": -1
+          },
+          {
+            "timestampNoTzAsDate": false,
+            "name": "R364_sum",
+            "type": "bigint",
+            "maxLength": -1
+          },
+          {
+            "timestampNoTzAsDate": false,
+            "name": "R446_sum",
+            "type": "bigint",
+            "maxLength": -1
+          },
+          {
+            "timestampNoTzAsDate": false,
+            "name": "R119_sum",
+            "type": "bigint",
+            "maxLength": -1
+          },
+          {
+            "timestampNoTzAsDate": false,
+            "name": "R044_sum",
+            "type": "bigint",
+            "maxLength": -1
+          },
+          {
+            "timestampNoTzAsDate": false,
+            "name": "R575_sum",
+            "type": "bigint",
+            "maxLength": -1
+          },
+          {
+            "timestampNoTzAsDate": false,
+            "name": "R606_sum",
+            "type": "bigint",
+            "maxLength": -1
+          },
+          {
+            "timestampNoTzAsDate": false,
+            "name": "count",
+            "type": "bigint",
+            "maxLength": -1
+          }
+        ],
+        "userModified": false
+      }
+    }
+  },
   "enableAutoCastInJoinConditions": false
 }

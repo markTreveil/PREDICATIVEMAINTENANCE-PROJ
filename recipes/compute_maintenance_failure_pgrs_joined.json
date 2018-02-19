@@ -17,6 +17,10 @@
         {
           "ref": "usage_by_Asset_prepared",
           "deps": []
+        },
+        {
+          "ref": "maintenance_part_consumption_prepared_by_Asset",
+          "deps": []
         }
       ]
     }
@@ -32,11 +36,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1519045153117
+    "lastModifiedOn": 1519045208246
   },
   "creationTag": {
     "versionNumber": 0,
