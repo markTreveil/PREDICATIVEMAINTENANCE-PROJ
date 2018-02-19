@@ -1,0 +1,20 @@
+{
+  "envSelection": {
+    "envMode": "INHERIT"
+  },
+  "pipelineAllowMerge": true,
+  "sparkPreparedDFStorageLevel": "MEMORY_AND_DISK",
+  "backendType": "PY_MEMORY",
+  "filterInputColumns": false,
+  "sparkConf": {
+    "conf": []
+  },
+  "keptInputColumns": [],
+  "pipelineAllowStart": true,
+  "outputProbaPercentiles": false,
+  "outputProbabilities": true,
+  "forceOriginalEngine": false,
+  "sparkRepartitionNonHDFS": 1,
+  "forcedClassifierThreshold": 0.0,
+  "overrideModelSpecifiedThreshold": false
+}
