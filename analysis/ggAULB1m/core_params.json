@@ -1,5 +1,5 @@
 {
-  "inputDatasetSmartName": "maintenance_part_consumption_prepared",
+  "inputDatasetSmartName": "eva",
   "script": {
     "steps": [],
     "maxProcessedMemTableBytes": -1,
@@ -45,13 +45,13 @@
     "previewMode": "ALL_ROWS"
   },
   "charts": [],
-  "name": "Copy of Predict R193 on maintenance_part_consumption_prepared",
+  "name": "tt Predict R193 on maintenance_part_consumption_prepared",
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1529334851465
+    "lastModifiedOn": 1529334876184
   },
   "creationTag": {
     "versionNumber": 0,
