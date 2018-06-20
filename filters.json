@@ -40,9 +40,7 @@
       "derivedFromFilterId": "-1",
       "structuredFlowObjectFilter": {
         "tags": [],
-        "types": [
-          "SAVED_MODEL"
-        ],
+        "types": [],
         "creator": [],
         "customCreationDateRange": {
           "from": 0,
@@ -58,7 +56,7 @@
       },
       "advancedFilter": "(type:SAVED_MODEL OR (type:RECIPE AND (recipeType:prediction_scoring OR recipeType:prediction_training OR recipeType:evaluation)))",
       "removeFadedElements": false,
-      "query": "(type:SAVED_MODEL OR (recipeType:prediction_scoring OR recipeType:prediction_training OR recipeType:evaluation))"
+      "query": "(recipeType:prediction_scoring OR recipeType:prediction_training OR recipeType:evaluation)"
     }
   ]
 }
