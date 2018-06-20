@@ -41,7 +41,8 @@
       "structuredFlowObjectFilter": {
         "tags": [],
         "types": [
-          "RECIPE"
+          "RECIPE",
+          "SAVED_MODEL"
         ],
         "creator": [],
         "customCreationDateRange": {
@@ -54,7 +55,7 @@
       },
       "advancedFilter": "(type:SAVED_MODEL OR (type:RECIPE AND (recipeType:prediction_scoring OR recipeType:prediction_training OR recipeType:evaluation)))",
       "removeFadedElements": false,
-      "query": "type:RECIPE"
+      "query": "(type:SAVED_MODEL OR type:RECIPE)"
     }
   ]
 }
