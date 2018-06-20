@@ -50,11 +50,15 @@
         },
         "downstreamPredecessorsIds": [],
         "datasetTypes": [],
-        "recipeTypes": []
+        "recipeTypes": [
+          "evaluation",
+          "prediction_training",
+          "prediction_scoring"
+        ]
       },
       "advancedFilter": "(type:SAVED_MODEL OR (type:RECIPE AND (recipeType:prediction_scoring OR recipeType:prediction_training OR recipeType:evaluation)))",
       "removeFadedElements": false,
-      "query": "type:RECIPE"
+      "query": "(type:RECIPE AND (recipeType:evaluation OR recipeType:prediction_training OR recipeType:prediction_scoring))"
     }
   ]
 }
