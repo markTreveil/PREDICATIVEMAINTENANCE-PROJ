@@ -21,10 +21,12 @@
         },
         "downstreamPredecessorsIds": [],
         "datasetTypes": [],
-        "recipeTypes": []
+        "recipeTypes": [
+          "topn"
+        ]
       },
       "removeFadedElements": false,
-      "query": "type:RECIPE AND created:PAST_HOUR"
+      "query": "(type:RECIPE AND recipeType:topn) AND created:PAST_HOUR"
     }
   ]
 }
