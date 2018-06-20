@@ -40,21 +40,21 @@
       "derivedFromFilterId": "-1",
       "structuredFlowObjectFilter": {
         "tags": [],
-        "types": [],
+        "types": [
+          "RECIPE"
+        ],
         "creator": [],
         "customCreationDateRange": {
           "from": 0,
           "to": 0
         },
         "downstreamPredecessorsIds": [],
-        "datasetTypes": [
-          "UploadedFiles"
-        ],
+        "datasetTypes": [],
         "recipeTypes": []
       },
       "advancedFilter": "(type:SAVED_MODEL OR (type:RECIPE AND (recipeType:prediction_scoring OR recipeType:prediction_training OR recipeType:evaluation)))",
       "removeFadedElements": false,
-      "query": "datasetType:UploadedFiles"
+      "query": "type:RECIPE"
     }
   ]
 }
