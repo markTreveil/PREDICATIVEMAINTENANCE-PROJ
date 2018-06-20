@@ -48,7 +48,7 @@
         },
         "downstreamPredecessorsIds": [],
         "datasetTypes": [
-          "PostgreSQL"
+          "UploadedFiles"
         ],
         "recipeTypes": [
           "prediction_training",
@@ -57,7 +57,7 @@
       },
       "advancedFilter": "(type:SAVED_MODEL OR (type:RECIPE AND (recipeType:prediction_scoring OR recipeType:prediction_training OR recipeType:evaluation)))",
       "removeFadedElements": false,
-      "query": "((recipeType:prediction_training OR recipeType:prediction_scoring) OR datasetType:PostgreSQL)"
+      "query": "((recipeType:prediction_training OR recipeType:prediction_scoring) OR datasetType:UploadedFiles)"
     }
   ]
 }
