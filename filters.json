@@ -1,0 +1,34 @@
+{
+  "filters": [
+    {
+      "isAdvanced": false,
+      "scope": "PRIVATE",
+      "isDirty": true,
+      "creatorLogin": "admin",
+      "id": "b6e1509f05a2ecca4c7100164f6006e4a705cbbae64a8a47aa21c4161914eb587965fc27c9644b19d88f69d76435acf3ae6f938cc144519cffb5f5ec082b6802",
+      "creationDate": 1529479908528,
+      "derivedFromFilterId": "-1",
+      "structuredFlowObjectFilter": {
+        "tags": [],
+        "types": [
+          "RECIPE",
+          "SAVED_MODEL"
+        ],
+        "creator": [],
+        "customCreationDateRange": {
+          "from": 0,
+          "to": 0
+        },
+        "downstreamPredecessorsIds": [],
+        "datasetTypes": [],
+        "recipeTypes": [
+          "prediction_scoring",
+          "prediction_training",
+          "evaluation"
+        ]
+      },
+      "removeFadedElements": false,
+      "query": "(type:SAVED_MODEL OR (type:RECIPE AND (recipeType:prediction_scoring OR recipeType:prediction_training OR recipeType:evaluation)))"
+    }
+  ]
+}
