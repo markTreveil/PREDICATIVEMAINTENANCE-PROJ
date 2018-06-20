@@ -45,7 +45,6 @@
           "SAVED_MODEL"
         ],
         "creator": [],
-        "creationDateRange": "PAST_WEEK",
         "customCreationDateRange": {
           "from": 0,
           "to": 0
@@ -56,7 +55,7 @@
       },
       "advancedFilter": "(type:SAVED_MODEL OR (type:RECIPE AND (recipeType:prediction_scoring OR recipeType:prediction_training OR recipeType:evaluation)))",
       "removeFadedElements": false,
-      "query": "(type:SAVED_MODEL OR type:RECIPE) AND created:PAST_WEEK"
+      "query": "(type:SAVED_MODEL OR type:RECIPE)"
     }
   ]
 }
