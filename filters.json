@@ -10,7 +10,9 @@
       "derivedFromFilterId": "-1",
       "structuredFlowObjectFilter": {
         "tags": [],
-        "types": [],
+        "types": [
+          "DATASET"
+        ],
         "creator": [],
         "creationDateRange": "PAST_HOUR",
         "customCreationDateRange": {
@@ -22,7 +24,7 @@
         "recipeTypes": []
       },
       "removeFadedElements": false,
-      "query": "created:PAST_HOUR"
+      "query": "type:DATASET AND created:PAST_HOUR"
     }
   ]
 }
