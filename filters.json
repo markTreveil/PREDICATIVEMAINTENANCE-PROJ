@@ -41,7 +41,7 @@
       "structuredFlowObjectFilter": {
         "tags": [],
         "types": [
-          "DATASET"
+          "RECIPE"
         ],
         "creator": [],
         "customCreationDateRange": {
@@ -50,15 +50,11 @@
         },
         "downstreamPredecessorsIds": [],
         "datasetTypes": [],
-        "recipeTypes": [
-          "prediction_scoring",
-          "prediction_training",
-          "evaluation"
-        ]
+        "recipeTypes": []
       },
       "advancedFilter": "(type:SAVED_MODEL OR (type:RECIPE AND (recipeType:prediction_scoring OR recipeType:prediction_training OR recipeType:evaluation)))",
       "removeFadedElements": false,
-      "query": "((recipeType:prediction_scoring OR recipeType:prediction_training OR recipeType:evaluation) OR type:DATASET)"
+      "query": "type:RECIPE"
     }
   ]
 }
