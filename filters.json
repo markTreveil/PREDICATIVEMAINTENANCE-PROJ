@@ -11,7 +11,7 @@
       "structuredFlowObjectFilter": {
         "tags": [],
         "types": [
-          "DATASET"
+          "RECIPE"
         ],
         "creator": [],
         "creationDateRange": "PAST_HOUR",
@@ -24,7 +24,7 @@
         "recipeTypes": []
       },
       "removeFadedElements": false,
-      "query": "type:DATASET AND created:PAST_HOUR"
+      "query": "type:RECIPE AND created:PAST_HOUR"
     }
   ]
 }
