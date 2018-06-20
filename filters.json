@@ -29,6 +29,37 @@
       },
       "removeFadedElements": false,
       "query": "(type:SAVED_MODEL OR (type:RECIPE AND (recipeType:prediction_scoring OR recipeType:prediction_training OR recipeType:evaluation)))"
+    },
+    {
+      "isAdvanced": false,
+      "scope": "PRIVATE",
+      "isDirty": true,
+      "creatorLogin": "admin",
+      "id": "6d24c0e498488c4d3ca76c4b5171b45011b9ea9c939bb865b6f478e2abf8dc2132c5d52a8b61d0d4fbbd53c075d6ac8c2f3a888dad96d72b5df0434168b2fb22",
+      "creationDate": 1529489732799,
+      "derivedFromFilterId": "-1",
+      "structuredFlowObjectFilter": {
+        "tags": [],
+        "types": [
+          "RECIPE",
+          "SAVED_MODEL"
+        ],
+        "creator": [],
+        "customCreationDateRange": {
+          "from": 0,
+          "to": 0
+        },
+        "downstreamPredecessorsIds": [],
+        "datasetTypes": [],
+        "recipeTypes": [
+          "prediction_scoring",
+          "prediction_training",
+          "evaluation"
+        ]
+      },
+      "advancedFilter": "(type:SAVED_MODEL OR (type:RECIPE AND (recipeType:prediction_scoring OR recipeType:prediction_training OR recipeType:evaluation)))",
+      "removeFadedElements": false,
+      "query": "(type:SAVED_MODEL OR (type:RECIPE AND (recipeType:prediction_scoring OR recipeType:prediction_training OR recipeType:evaluation)))"
     }
   ]
 }
