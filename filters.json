@@ -1,3 +1,28 @@
 {
-  "filters": []
+  "filters": [
+    {
+      "isAdvanced": false,
+      "scope": "PRIVATE",
+      "isDirty": true,
+      "creatorLogin": "admin",
+      "id": "a40b6990c37a650161c8a21685612a5db1ba74eb0d92631825d006e523df25b3474ef04b922df24804aaa845f3819b5ef7717155c8e059246b5795020ae77051",
+      "creationDate": 1529494867723,
+      "derivedFromFilterId": "-1",
+      "structuredFlowObjectFilter": {
+        "tags": [],
+        "types": [],
+        "creator": [],
+        "creationDateRange": "PAST_HOUR",
+        "customCreationDateRange": {
+          "from": 0,
+          "to": 0
+        },
+        "downstreamPredecessorsIds": [],
+        "datasetTypes": [],
+        "recipeTypes": []
+      },
+      "removeFadedElements": false,
+      "query": "created:PAST_HOUR"
+    }
+  ]
 }
