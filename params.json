@@ -76,10 +76,14 @@
         "preventOverride": false
       }
     },
+    "container": {
+      "containerMode": "NONE"
+    },
     "datasetsCreationSettings": {
       "useGlobal": true,
       "preferedStorageFormats": "CSV_ESCAPING_NOGZIP_FORHIVE,CSV_EXCEL_GZIP,PARQUET_HIVE",
-      "virtualizable": false
+      "virtualizable": false,
+      "allowUploadsWithoutConnection": true
     },
     "hiveEngineCreationSettings": {
       "useGlobal": true,
@@ -91,6 +95,12 @@
     "impalaEngineCreationSettings": {
       "useGlobal": true,
       "streamMode": true
+    },
+    "wikiSettings": {
+      "promoted": true
+    },
+    "cluster": {
+      "clusterMode": "INHERIT"
     }
   },
   "name": "Predicative Maintenance",
@@ -146,11 +156,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 2,
+    "versionNumber": 3,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1521794920495
+    "lastModifiedOn": 1530049029345
   },
   "creationTag": {
     "versionNumber": 0,
