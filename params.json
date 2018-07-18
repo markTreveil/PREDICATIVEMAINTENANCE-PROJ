@@ -26,6 +26,28 @@
     ]
   },
   "projectType": "REGULAR",
+  "bundleExporterSettings": {
+    "exportOptions": {
+      "exportUploads": false,
+      "exportManagedFS": false,
+      "exportAnalysisModels": false,
+      "exportSavedModels": false,
+      "exportManagedFolders": false,
+      "exportAllInputDatasets": false,
+      "exportAllDatasets": false,
+      "exportAllInputManagedFolders": false,
+      "exportGitRepository": false,
+      "exportInsightsData": false,
+      "useManualPluginsInfo": false,
+      "includedDatasetsData": [],
+      "includedSavedModels": [
+        {
+          "id": "x52nga4X"
+        }
+      ],
+      "includedManagedFolders": []
+    }
+  },
   "owner": "admin",
   "permissions": [],
   "additionalDashboardUsers": {
@@ -101,7 +123,8 @@
     },
     "cluster": {
       "clusterMode": "INHERIT"
-    }
+    },
+    "path": "/"
   },
   "name": "Predicative Maintenance",
   "projectStatus": "Gwoing gww-eight",
@@ -156,11 +179,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 3,
+    "versionNumber": 4,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1530049029345
+    "lastModifiedOn": 1531914582994
   },
   "creationTag": {
     "versionNumber": 0,
