@@ -1,6 +1,9 @@
 {
   "predictionType": "BINARY_CLASSIFICATION",
   "targetVariable": "failure_bin",
+  "weight": {
+    "weightMethod": "NO_WEIGHTING"
+  },
   "guessPolicy": "DEFAULT",
   "splitParams": {
     "ttPolicy": "SPLIT_SINGLE_DATASET",
@@ -73,6 +76,8 @@
         "sampleFreq": 399
       }
     ],
+    "preprocessingFitSampleRatio": 1.0,
+    "preprocessingFitSampleSeed": 1337,
     "per_feature": {
       "R417_sum": {
         "generate_derivative": false,
@@ -92,7 +97,8 @@
           "recordedMeaning": "LongMeaning"
         },
         "customHandlingCode": "",
-        "customProcessorWantsMatrix": false
+        "customProcessorWantsMatrix": false,
+        "sendToInput": "main"
       },
       "distance": {
         "generate_derivative": false,
@@ -112,7 +118,8 @@
           "recordedMeaning": "DoubleMeaning"
         },
         "customHandlingCode": "",
-        "customProcessorWantsMatrix": false
+        "customProcessorWantsMatrix": false,
+        "sendToInput": "main"
       },
       "R565_sum": {
         "generate_derivative": false,
@@ -132,7 +139,8 @@
           "recordedMeaning": "LongMeaning"
         },
         "customHandlingCode": "",
-        "customProcessorWantsMatrix": false
+        "customProcessorWantsMatrix": false,
+        "sendToInput": "main"
       },
       "R364_sum": {
         "generate_derivative": false,
@@ -152,7 +160,8 @@
           "recordedMeaning": "LongMeaning"
         },
         "customHandlingCode": "",
-        "customProcessorWantsMatrix": false
+        "customProcessorWantsMatrix": false,
+        "sendToInput": "main"
       },
       "count": {
         "generate_derivative": false,
@@ -172,7 +181,8 @@
           "recordedMeaning": "LongMeaning"
         },
         "customHandlingCode": "",
-        "customProcessorWantsMatrix": false
+        "customProcessorWantsMatrix": false,
+        "sendToInput": "main"
       },
       "R606_sum": {
         "generate_derivative": false,
@@ -192,7 +202,8 @@
           "recordedMeaning": "LongMeaning"
         },
         "customHandlingCode": "",
-        "customProcessorWantsMatrix": false
+        "customProcessorWantsMatrix": false,
+        "sendToInput": "main"
       },
       "R707_sum": {
         "generate_derivative": false,
@@ -212,7 +223,8 @@
           "recordedMeaning": "LongMeaning"
         },
         "customHandlingCode": "",
-        "customProcessorWantsMatrix": false
+        "customProcessorWantsMatrix": false,
+        "sendToInput": "main"
       },
       "R119_sum": {
         "generate_derivative": false,
@@ -232,7 +244,8 @@
           "recordedMeaning": "LongMeaning"
         },
         "customHandlingCode": "",
-        "customProcessorWantsMatrix": false
+        "customProcessorWantsMatrix": false,
+        "sendToInput": "main"
       },
       "Time_min": {
         "generate_derivative": false,
@@ -252,7 +265,8 @@
           "recordedMeaning": "LongMeaning"
         },
         "customHandlingCode": "",
-        "customProcessorWantsMatrix": false
+        "customProcessorWantsMatrix": false,
+        "sendToInput": "main"
       },
       "R783_sum": {
         "generate_derivative": false,
@@ -272,7 +286,8 @@
           "recordedMeaning": "LongMeaning"
         },
         "customHandlingCode": "",
-        "customProcessorWantsMatrix": false
+        "customProcessorWantsMatrix": false,
+        "sendToInput": "main"
       },
       "Use_min": {
         "generate_derivative": false,
@@ -292,7 +307,8 @@
           "recordedMeaning": "DoubleMeaning"
         },
         "customHandlingCode": "",
-        "customProcessorWantsMatrix": false
+        "customProcessorWantsMatrix": false,
+        "sendToInput": "main"
       },
       "R575_sum": {
         "generate_derivative": false,
@@ -312,7 +328,8 @@
           "recordedMeaning": "LongMeaning"
         },
         "customHandlingCode": "",
-        "customProcessorWantsMatrix": false
+        "customProcessorWantsMatrix": false,
+        "sendToInput": "main"
       },
       "failure_bin": {
         "generate_derivative": false,
@@ -328,7 +345,8 @@
           "recordedMeaning": "LongMeaning"
         },
         "customHandlingCode": "",
-        "customProcessorWantsMatrix": false
+        "customProcessorWantsMatrix": false,
+        "sendToInput": "main"
       },
       "R193_sum": {
         "generate_derivative": false,
@@ -348,7 +366,8 @@
           "recordedMeaning": "LongMeaning"
         },
         "customHandlingCode": "",
-        "customProcessorWantsMatrix": false
+        "customProcessorWantsMatrix": false,
+        "sendToInput": "main"
       },
       "R446_sum": {
         "generate_derivative": false,
@@ -368,7 +387,8 @@
           "recordedMeaning": "LongMeaning"
         },
         "customHandlingCode": "",
-        "customProcessorWantsMatrix": false
+        "customProcessorWantsMatrix": false,
+        "sendToInput": "main"
       },
       "measures_count": {
         "generate_derivative": false,
@@ -388,7 +408,8 @@
           "recordedMeaning": "LongMeaning"
         },
         "customHandlingCode": "",
-        "customProcessorWantsMatrix": false
+        "customProcessorWantsMatrix": false,
+        "sendToInput": "main"
       },
       "Asset": {
         "category_handling": "DUMMIFY",
@@ -409,7 +430,8 @@
         },
         "autoReason": "REJECT_IDENTIFIER",
         "customHandlingCode": "",
-        "customProcessorWantsMatrix": false
+        "customProcessorWantsMatrix": false,
+        "sendToInput": "main"
       },
       "R044_sum": {
         "generate_derivative": false,
@@ -429,7 +451,8 @@
           "recordedMeaning": "LongMeaning"
         },
         "customHandlingCode": "",
-        "customProcessorWantsMatrix": false
+        "customProcessorWantsMatrix": false,
+        "sendToInput": "main"
       }
     },
     "feature_generation": {
@@ -813,12 +836,20 @@
       "lambda": [
         1.0
       ],
+      "gbtree": true,
+      "dart": false,
+      "reg_linear": true,
+      "reg_logistic": false,
+      "reg_gamma": false,
+      "binary_logistic": false,
+      "multi_softprob": false,
       "n_estimators": 300,
       "nthread": -1,
       "scale_pos_weight": 1.0,
       "base_score": 0.5,
       "impute_missing": false,
       "missing": 0.0,
+      "tree_method": "auto",
       "seed": 1337,
       "enable_early_stopping": true,
       "early_stopping_rounds": 4
@@ -918,6 +949,24 @@
       "checkpoint_interval": 10
     },
     "custom_python": [],
+    "keras": {
+      "epochs": 10,
+      "batchSize": 32,
+      "trainOnAllData": true,
+      "stepsPerEpoch": 100,
+      "shuffleData": true,
+      "useGPU": false,
+      "gpuList": [
+        0
+      ],
+      "perGPUMemoryFraction": 0.5,
+      "gpuAllowGrowth": false,
+      "advancedFitMode": false,
+      "enabled": false,
+      "kerasInputs": [
+        "main"
+      ]
+    },
     "grid_search": true,
     "gridSearchParams": {
       "mode": "KFOLD",
@@ -956,8 +1005,12 @@
   "taskType": "PREDICTION",
   "name": "Predict failure_bin",
   "backendType": "PY_MEMORY",
+  "maxConcurrentModelTraining": 2,
   "envSelection": {
     "envMode": "INHERIT"
+  },
+  "containerSelection": {
+    "containerMode": "INHERIT"
   },
   "sparkPreparedDFStorageLevel": "MEMORY_AND_DISK",
   "sparkRepartitionNonHDFS": 1,
@@ -1007,5 +1060,98 @@
     "explorationFilters": [],
     "previewMode": "ALL_ROWS"
   },
-  "predictionDisplayCharts": []
+  "predictionDisplayCharts": [
+    {
+      "def": {
+        "type": "grouped_columns",
+        "variant": "normal",
+        "name": "New chart",
+        "userEditedName": false,
+        "genericDimension0": [],
+        "genericDimension1": [],
+        "facetDimension": [],
+        "animationDimension": [],
+        "genericMeasures": [],
+        "xDimension": [],
+        "yDimension": [],
+        "uaXDimension": [],
+        "uaYDimension": [],
+        "uaSize": [],
+        "uaShape": [],
+        "uaColor": [],
+        "uaTooltip": [],
+        "groupDimension": [],
+        "xMeasure": [],
+        "yMeasure": [],
+        "colorMeasure": [],
+        "sizeMeasure": [],
+        "geometry": [],
+        "tooltipMeasures": [],
+        "boxplotBreakdownDim": [],
+        "boxplotValue": [],
+        "filters": [],
+        "axis1LogScale": false,
+        "axis2LogScale": false,
+        "includeZero": true,
+        "smoothing": true,
+        "showLegend": true,
+        "showXAxis": false,
+        "showInChartValues": false,
+        "showInChartLabels": true,
+        "strokeWidth": 1,
+        "fillOpacity": 0.6,
+        "showXAxisLabel": true,
+        "showYAxisLabel": true,
+        "hexbinRadius": 20,
+        "hexbinNumber": 20,
+        "hexbinRadiusMode": "NUM_HEXAGONS",
+        "chartHeight": 200,
+        "singleXAxis": true,
+        "multiTooltips": false,
+        "animationFrameDuration": 3000,
+        "animationRepeat": true,
+        "colorOptions": {
+          "singleColor": "#2678B1",
+          "transparency": 0.75,
+          "colorPalette": "default",
+          "ccScaleMode": "NORMAL",
+          "customPalette": {
+            "id": "__dku_custom__",
+            "name": "Custom Palette",
+            "colors": [],
+            "values": [],
+            "fixedValues": false
+          },
+          "paletteType": "CONTINUOUS",
+          "quantizationMode": "NONE",
+          "numQuantizeSteps": 5,
+          "paletteMiddleValue": 0.0
+        },
+        "bubblesOptions": {
+          "defaultRadius": 5.0,
+          "singleShape": "FILLED_CIRCLE"
+        },
+        "xAxisMode": "NORMAL",
+        "yAxisMode": "NORMAL",
+        "pieOptions": {
+          "donutHoleSize": 54.0
+        },
+        "scatterOptions": {
+          "equalScales": false,
+          "identityLine": false
+        },
+        "mapOptions": {
+          "tilesLayer": "cartodb-positron",
+          "lockSquareGrid": false
+        },
+        "mapGridOptions": {
+          "gridLonDeg": 0.5,
+          "gridLatDeg": 0.5
+        },
+        "disableSafetyLimits": false,
+        "useLiveProcessingIfAvailable": true,
+        "legendPlacement": "OUTER_RIGHT"
+      }
+    }
+  ]
 }
