@@ -2,7 +2,8 @@
   "predictionType": "BINARY_CLASSIFICATION",
   "targetVariable": "failure_bin",
   "weight": {
-    "weightMethod": "SAMPLE_WEIGHT"
+    "weightMethod": "SAMPLE_WEIGHT",
+    "sampleWeightVariable": "R417_sum"
   },
   "guessPolicy": "DEFAULT",
   "splitParams": {
@@ -89,7 +90,7 @@
         "quantile_bin_nb_bins": 4,
         "binarize_threshold_mode": "MEDIAN",
         "binarize_constant_threshold": 0.0,
-        "role": "INPUT",
+        "role": "WEIGHT",
         "type": "NUMERIC",
         "state": {
           "userModified": false,
