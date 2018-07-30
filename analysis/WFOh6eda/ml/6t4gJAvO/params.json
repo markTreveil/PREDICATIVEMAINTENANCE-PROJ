@@ -2,7 +2,7 @@
   "predictionType": "BINARY_CLASSIFICATION",
   "targetVariable": "failure_bin",
   "weight": {
-    "weightMethod": "NO_WEIGHTING"
+    "weightMethod": "SAMPLE_WEIGHT"
   },
   "guessPolicy": "DEFAULT",
   "splitParams": {
@@ -1131,6 +1131,7 @@
           "defaultRadius": 5.0,
           "singleShape": "FILLED_CIRCLE"
         },
+        "computeMode": "NORMAL",
         "xAxisMode": "NORMAL",
         "yAxisMode": "NORMAL",
         "pieOptions": {
