@@ -1,5 +1,16 @@
 {
-  "endpoints": [],
+  "name": "predMain-1",
+  "endpoints": [
+    {
+      "modelRef": "x52nga4X",
+      "useJava": true,
+      "testQueries": [],
+      "enrichMapping": [],
+      "healthCheckQueries": [],
+      "id": "endpoint1",
+      "type": "STD_PREDICTION"
+    }
+  ],
   "publicAccess": true,
   "authRealm": {
     "queryKeys": []
