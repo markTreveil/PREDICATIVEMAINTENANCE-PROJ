@@ -5,7 +5,21 @@
       "modelRef": "x52nga4X",
       "useJava": true,
       "testQueries": [],
-      "enrichMapping": [],
+      "enrichMapping": [
+        {
+          "datasetRef": "eva",
+          "packagingType": "BUNDLED_TOCONNECTION",
+          "on": [],
+          "missingLookupKeyBehavior": "IGNORE",
+          "notFoundBehavior": "IGNORE",
+          "multiMatchBehavior": "KEEP_FIRST",
+          "columnsMapping": {
+            "Asset": "Asset",
+            "failure_bin": "failure_bin",
+            "Time_min": "Time_min"
+          }
+        }
+      ],
       "healthCheckQueries": [],
       "id": "endpoint1",
       "type": "STD_PREDICTION"
