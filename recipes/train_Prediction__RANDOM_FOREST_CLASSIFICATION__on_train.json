@@ -28,11 +28,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 2,
+    "versionNumber": 3,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1535717323246
+    "lastModifiedOn": 1535717331775
   },
   "creationTag": {
     "versionNumber": 0,
@@ -41,6 +41,7 @@
     },
     "lastModifiedOn": 1519047662521
   },
+  "shortDesc": "train",
   "tags": [
     "One is 1"
   ],
