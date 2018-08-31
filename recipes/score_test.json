@@ -36,11 +36,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1519047733848
+    "lastModifiedOn": 1535717392313
   },
   "creationTag": {
     "versionNumber": 0,
@@ -49,7 +49,9 @@
     },
     "lastModifiedOn": 1519047719261
   },
-  "tags": [],
+  "tags": [
+    "One is 1"
+  ],
   "checklists": {
     "checklists": []
   }
