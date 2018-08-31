@@ -62,6 +62,9 @@
   "miniTask": {
     "predictionType": "BINARY_CLASSIFICATION",
     "targetVariable": "failure_bin",
+    "weight": {
+      "weightMethod": "NO_WEIGHTING"
+    },
     "guessPolicy": "DEFAULT",
     "modeling": {
       "random_forest_regression": {
@@ -420,12 +423,22 @@
         "lambda": [
           1.0
         ],
+        "gbtree": true,
+        "dart": false,
+        "reg_linear": true,
+        "reg_logistic": false,
+        "reg_gamma": false,
+        "binary_logistic": false,
+        "multi_softprob": false,
         "n_estimators": 300,
         "nthread": -1,
         "scale_pos_weight": 1.0,
         "base_score": 0.5,
         "impute_missing": false,
         "missing": 0.0,
+        "cpu_tree_method": "auto",
+        "gpu_tree_method": "gpu_exact",
+        "enable_cuda": false,
         "seed": 1337,
         "enable_early_stopping": true,
         "early_stopping_rounds": 4
@@ -525,6 +538,24 @@
         "checkpoint_interval": 10
       },
       "custom_python": [],
+      "keras": {
+        "epochs": 10,
+        "batchSize": 32,
+        "trainOnAllData": true,
+        "stepsPerEpoch": 100,
+        "shuffleData": true,
+        "useGPU": false,
+        "gpuList": [
+          0
+        ],
+        "perGPUMemoryFraction": 0.5,
+        "gpuAllowGrowth": false,
+        "advancedFitMode": false,
+        "enabled": false,
+        "kerasInputs": [
+          "main"
+        ]
+      },
       "grid_search": false,
       "gridSearchParams": {
         "mode": "KFOLD",
@@ -560,8 +591,12 @@
     },
     "taskType": "PREDICTION",
     "backendType": "PY_MEMORY",
+    "maxConcurrentModelTraining": 2,
     "envSelection": {
       "envMode": "INHERIT"
+    },
+    "containerSelection": {
+      "containerMode": "INHERIT"
     },
     "sparkPreparedDFStorageLevel": "MEMORY_AND_DISK",
     "sparkRepartitionNonHDFS": 1,
@@ -614,11 +649,11 @@
     "predictionDisplayCharts": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 3,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1519047662503
+    "lastModifiedOn": 1535717304990
   },
   "creationTag": {
     "versionNumber": 0,
@@ -627,7 +662,10 @@
     },
     "lastModifiedOn": 1519047662503
   },
-  "tags": [],
+  "shortDesc": "Predict what",
+  "tags": [
+    "One is 1"
+  ],
   "checklists": {
     "checklists": []
   }
