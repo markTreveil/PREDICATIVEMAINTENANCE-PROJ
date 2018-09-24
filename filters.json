@@ -11,7 +11,8 @@
       "structuredFlowObjectFilter": {
         "tags": [],
         "types": [
-          "DATASET"
+          "DATASET",
+          "RECIPE"
         ],
         "creator": [],
         "customCreationDateRange": {
@@ -23,7 +24,7 @@
         "recipeTypes": []
       },
       "removeFadedElements": false,
-      "query": "type:DATASET"
+      "query": "(type:RECIPE OR type:DATASET)"
     }
   ]
 }
