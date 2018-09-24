@@ -187,7 +187,7 @@
     },
     "path": "/"
   },
-  "name": "Predicative Maintenancez",
+  "name": "Predicative Maintenance",
   "projectStatus": "Gwoing gww-eight",
   "metrics": {
     "probes": [],
@@ -240,11 +240,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 11,
+    "versionNumber": 12,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1537801756378
+    "lastModifiedOn": 1537801873982
   },
   "creationTag": {
     "versionNumber": 0,
