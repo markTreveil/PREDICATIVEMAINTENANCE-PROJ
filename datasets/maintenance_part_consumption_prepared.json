@@ -41,7 +41,9 @@
     },
     "lastModifiedOn": 1519044108851
   },
-  "tags": [],
+  "tags": [
+    "One is 1"
+  ],
   "params": {
     "writeWithCopyBadDataBehavior": "NOVERIFY_ERROR",
     "connection": "Postgres",
@@ -57,81 +59,57 @@
     "readSQLDateColsAsDSSDates": true
   },
   "schema": {
-    "userModified": true,
     "columns": [
       {
         "name": "Asset",
-        "type": "string",
-        "timestampNoTzAsDate": false,
-        "maxLength": -1
+        "type": "string"
       },
       {
         "name": "R417",
-        "type": "bigint",
-        "timestampNoTzAsDate": false,
-        "maxLength": -1
+        "type": "bigint"
       },
       {
         "name": "R707",
-        "type": "bigint",
-        "timestampNoTzAsDate": false,
-        "maxLength": -1
+        "type": "bigint"
       },
       {
         "name": "R193",
-        "type": "bigint",
-        "timestampNoTzAsDate": false,
-        "maxLength": -1
+        "type": "bigint"
       },
       {
         "name": "R565",
-        "type": "bigint",
-        "timestampNoTzAsDate": false,
-        "maxLength": -1
+        "type": "bigint"
       },
       {
         "name": "R783",
-        "type": "bigint",
-        "timestampNoTzAsDate": false,
-        "maxLength": -1
+        "type": "bigint"
       },
       {
         "name": "R364",
-        "type": "bigint",
-        "timestampNoTzAsDate": false,
-        "maxLength": -1
+        "type": "bigint"
       },
       {
         "name": "R446",
-        "type": "bigint",
-        "timestampNoTzAsDate": false,
-        "maxLength": -1
+        "type": "bigint"
       },
       {
         "name": "R119",
-        "type": "bigint",
-        "timestampNoTzAsDate": false,
-        "maxLength": -1
+        "type": "bigint"
       },
       {
         "name": "R044",
-        "type": "bigint",
-        "timestampNoTzAsDate": false,
-        "maxLength": -1
+        "type": "bigint"
       },
       {
         "name": "R575",
-        "type": "bigint",
-        "timestampNoTzAsDate": false,
-        "maxLength": -1
+        "type": "bigint"
       },
       {
         "name": "R606",
-        "type": "bigint",
-        "timestampNoTzAsDate": false,
-        "maxLength": -1
+        "type": "bigint"
       }
-    ]
+    ],
+    "userModified": true
   },
   "metrics": {
     "probes": [
