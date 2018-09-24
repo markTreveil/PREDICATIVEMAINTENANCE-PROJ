@@ -189,6 +189,8 @@
   },
   "name": "Predicative Maintenance",
   "projectStatus": "Gwoing gww-eight",
+  "imgPattern": 1,
+  "showInitials": false,
   "metrics": {
     "probes": [],
     "engineConfig": {
@@ -240,11 +242,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 14,
+    "versionNumber": 15,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1537802118623
+    "lastModifiedOn": 1537802286649
   },
   "creationTag": {
     "versionNumber": 0,
