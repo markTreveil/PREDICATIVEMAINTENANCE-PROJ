@@ -41,7 +41,9 @@
     },
     "lastModifiedOn": 1519044150253
   },
-  "tags": [],
+  "tags": [
+    "One is 1"
+  ],
   "checklists": {
     "checklists": []
   }
