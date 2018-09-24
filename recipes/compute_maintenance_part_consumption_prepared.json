@@ -13,7 +13,8 @@
         },
         "readParams": {
           "map": {}
-        }
+        },
+        "useGlobalMetastore": false
       },
       "hadoopConfigKeys": [],
       "maxThreads": 8
@@ -58,7 +59,9 @@
     },
     "lastModifiedOn": 1519044108866
   },
-  "tags": [],
+  "tags": [
+    "One is 1"
+  ],
   "checklists": {
     "checklists": []
   }
