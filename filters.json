@@ -25,7 +25,7 @@
         "datasetTypes": [],
         "recipeTypes": []
       },
-      "removeFadedElements": true,
+      "removeFadedElements": false,
       "query": "tag:\"One is 1\" AND (type:RECIPE OR type:DATASET)"
     }
   ]
