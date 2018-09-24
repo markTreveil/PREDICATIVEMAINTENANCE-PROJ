@@ -105,8 +105,7 @@
           "id": "x52nga4X"
         }
       ],
-      "includedManagedFolders": [],
-      "shareAllInputDatasets": false
+      "includedManagedFolders": []
     }
   },
   "owner": "admin",
@@ -173,7 +172,8 @@
       "executionEngine": "HIVECLI_LOCAL"
     },
     "sparkEngineCreationSettings": {
-      "useGlobal": true
+      "useGlobal": true,
+      "useGlobalMetastore": false
     },
     "impalaEngineCreationSettings": {
       "useGlobal": true,
@@ -187,7 +187,7 @@
     },
     "path": "/"
   },
-  "name": "Predicative Maintenance",
+  "name": "Predicative Maintenancez",
   "projectStatus": "Gwoing gww-eight",
   "metrics": {
     "probes": [],
@@ -240,11 +240,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 10,
+    "versionNumber": 11,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1537797525492
+    "lastModifiedOn": 1537801756378
   },
   "creationTag": {
     "versionNumber": 0,
