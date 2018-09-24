@@ -23,7 +23,7 @@
         "datasetTypes": [],
         "recipeTypes": []
       },
-      "removeFadedElements": false,
+      "removeFadedElements": true,
       "query": "(type:RECIPE OR type:DATASET)"
     }
   ]
