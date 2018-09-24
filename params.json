@@ -22,6 +22,66 @@
             "appearOnFlow": true
           }
         ]
+      },
+      {
+        "type": "DATASET",
+        "localName": "maintenance_failure",
+        "rules": [
+          {
+            "targetProject": "COPYOFPREDICATIVEMAINTENANCE2",
+            "appearOnFlow": true
+          }
+        ]
+      },
+      {
+        "type": "DATASET",
+        "localName": "maintenance_part_consumption",
+        "rules": [
+          {
+            "targetProject": "COPYOFPREDICATIVEMAINTENANCE2",
+            "appearOnFlow": true
+          }
+        ]
+      },
+      {
+        "type": "DATASET",
+        "localName": "test_2x125",
+        "rules": [
+          {
+            "targetProject": "COPYOFPREDICATIVEMAINTENANCE2",
+            "appearOnFlow": true
+          }
+        ]
+      },
+      {
+        "type": "DATASET",
+        "localName": "testimport",
+        "rules": [
+          {
+            "targetProject": "COPYOFPREDICATIVEMAINTENANCE2",
+            "appearOnFlow": true
+          }
+        ]
+      },
+      {
+        "type": "DATASET",
+        "localName": "testimport_1",
+        "rules": [
+          {
+            "targetProject": "COPYOFPREDICATIVEMAINTENANCE2",
+            "appearOnFlow": true
+          }
+        ]
+      },
+      {
+        "type": "DATASET",
+        "localName": "usage",
+        "rules": [
+          {
+            "targetProject": "COPYOFPREDICATIVEMAINTENANCE2",
+            "appearOnFlow": true
+          }
+        ]
       }
     ]
   },
@@ -45,7 +105,8 @@
           "id": "x52nga4X"
         }
       ],
-      "includedManagedFolders": []
+      "includedManagedFolders": [],
+      "shareAllInputDatasets": false
     }
   },
   "owner": "admin",
@@ -179,11 +240,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 4,
+    "versionNumber": 10,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1531914582994
+    "lastModifiedOn": 1537797525492
   },
   "creationTag": {
     "versionNumber": 0,
