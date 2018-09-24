@@ -8,6 +8,13 @@
           "objectType": "DATASET"
         },
         "modes": []
+      },
+      {
+        "objectRef": {
+          "objectId": "maintenance_failure_topn",
+          "objectType": "DATASET"
+        },
+        "modes": []
       }
     ]
   },
@@ -79,6 +86,16 @@
         "rules": [
           {
             "targetProject": "COPYOFPREDICATIVEMAINTENANCE2",
+            "appearOnFlow": true
+          }
+        ]
+      },
+      {
+        "type": "DATASET",
+        "localName": "maintenance_failure_topn",
+        "rules": [
+          {
+            "targetProject": "TEST9",
             "appearOnFlow": true
           }
         ]
@@ -242,11 +259,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 15,
+    "versionNumber": 16,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1537802286649
+    "lastModifiedOn": 1537802549940
   },
   "creationTag": {
     "versionNumber": 0,
