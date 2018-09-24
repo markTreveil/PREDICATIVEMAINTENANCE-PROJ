@@ -7,6 +7,7 @@
     "engineParams": {
       "maxThreads": 4,
       "tdchParams": {
+        "splitMode": "DEFAULT",
         "numberOfExecutors": 2
       },
       "sparkSQL": {
@@ -74,7 +75,9 @@
     },
     "lastModifiedOn": 1521535508568
   },
-  "tags": [],
+  "tags": [
+    "One is 1"
+  ],
   "checklists": {
     "checklists": []
   }
