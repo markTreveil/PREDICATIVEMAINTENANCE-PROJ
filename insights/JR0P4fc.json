@@ -1,0 +1,28 @@
+{
+  "type": "saved-model_report",
+  "params": {
+    "savedModelSmartId": "x52nga4X"
+  },
+  "owner": "admin",
+  "listed": false,
+  "name": "Prediction (RANDOM_FOREST_CLASSIFICATION) on train table",
+  "dashboardCreationId": "PRvEuFJ",
+  "versionTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1539618478603
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1539618478603
+  },
+  "tags": [],
+  "checklists": {
+    "checklists": []
+  }
+}
