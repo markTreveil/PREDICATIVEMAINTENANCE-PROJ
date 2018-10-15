@@ -15,6 +15,15 @@
           "objectType": "DATASET"
         },
         "modes": []
+      },
+      {
+        "objectRef": {
+          "objectId": "x52nga4X",
+          "objectType": "SAVED_MODEL"
+        },
+        "modes": [
+          "READ"
+        ]
       }
     ]
   },
@@ -259,11 +268,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 18,
+    "versionNumber": 19,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1537973048673
+    "lastModifiedOn": 1539618477901
   },
   "creationTag": {
     "versionNumber": 0,
