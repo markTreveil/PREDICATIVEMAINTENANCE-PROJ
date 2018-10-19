@@ -28,11 +28,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1519044108851
+    "lastModifiedOn": 1539933945880
   },
   "creationTag": {
     "versionNumber": 0,
@@ -42,7 +42,9 @@
     "lastModifiedOn": 1519044108851
   },
   "tags": [
-    "One is 1"
+    "One is 1",
+    "three",
+    "four"
   ],
   "params": {
     "writeWithCopyBadDataBehavior": "NOVERIFY_ERROR",
