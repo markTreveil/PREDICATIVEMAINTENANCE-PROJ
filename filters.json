@@ -9,9 +9,7 @@
       "creationDate": 1537270303543,
       "derivedFromFilterId": "-1",
       "structuredFlowObjectFilter": {
-        "tags": [
-          "One is 1"
-        ],
+        "tags": [],
         "types": [
           "DATASET"
         ],
@@ -27,7 +25,7 @@
         "recipeTypes": []
       },
       "removeFadedElements": false,
-      "query": "tag:\"One is 1\" AND (type:DATASET AND datasetType:UploadedFiles)"
+      "query": "(type:DATASET AND datasetType:UploadedFiles)"
     }
   ]
 }
