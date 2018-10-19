@@ -13,19 +13,19 @@
         "types": [
           "DATASET"
         ],
-        "creator": [],
+        "creator": [
+          "admin"
+        ],
         "customCreationDateRange": {
           "from": 0,
           "to": 0
         },
         "downstreamPredecessorsIds": [],
-        "datasetTypes": [
-          "UploadedFiles"
-        ],
+        "datasetTypes": [],
         "recipeTypes": []
       },
       "removeFadedElements": true,
-      "query": "(type:DATASET AND datasetType:UploadedFiles)"
+      "query": "user:admin AND type:DATASET"
     }
   ]
 }
