@@ -13,8 +13,7 @@
           "One is 1"
         ],
         "types": [
-          "DATASET",
-          "RECIPE"
+          "DATASET"
         ],
         "creator": [],
         "customCreationDateRange": {
@@ -22,11 +21,13 @@
           "to": 0
         },
         "downstreamPredecessorsIds": [],
-        "datasetTypes": [],
+        "datasetTypes": [
+          "UploadedFiles"
+        ],
         "recipeTypes": []
       },
       "removeFadedElements": false,
-      "query": "tag:\"One is 1\" AND (type:RECIPE OR type:DATASET)"
+      "query": "tag:\"One is 1\" AND (type:DATASET AND datasetType:UploadedFiles)"
     }
   ]
 }
