@@ -24,7 +24,7 @@
         ],
         "recipeTypes": []
       },
-      "removeFadedElements": false,
+      "removeFadedElements": true,
       "query": "(type:DATASET AND datasetType:UploadedFiles)"
     }
   ]
