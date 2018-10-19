@@ -1,6 +1,7 @@
 {
   "type": "UploadedFiles",
   "managed": false,
+  "description": "magicme",
   "formatType": "csv",
   "checklists": {
     "checklists": []
@@ -58,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1519039590427
+    "lastModifiedOn": 1539933589546
   },
   "creationTag": {
     "versionNumber": 0,
