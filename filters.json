@@ -26,7 +26,7 @@
         ],
         "recipeTypes": []
       },
-      "removeFadedElements": false,
+      "removeFadedElements": true,
       "query": "tag:\"One is 1\" AND (type:DATASET AND datasetType:UploadedFiles)"
     }
   ]
