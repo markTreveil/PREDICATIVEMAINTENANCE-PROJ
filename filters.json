@@ -25,7 +25,7 @@
         "recipeTypes": []
       },
       "advancedFilter": "(type:RECIPE OR datasetType:PostgreSQL)",
-      "removeFadedElements": false,
+      "removeFadedElements": true,
       "query": "(type:RECIPE OR datasetType:PostgreSQL)"
     }
   ]
