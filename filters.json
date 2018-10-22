@@ -1,32 +1,3 @@
 {
-  "filters": [
-    {
-      "isAdvanced": true,
-      "scope": "PRIVATE",
-      "isDirty": true,
-      "creatorLogin": "admin",
-      "id": "c7b43e8835640185f83bc33cc45d105b31b5ade917b2fe07cc0ae490796ee76c08e65a29fefcf96a70eeca8ae0e8353f01318d1a5b9ada225da6966737328f66",
-      "creationDate": 1540127942868,
-      "derivedFromFilterId": "-1",
-      "structuredFlowObjectFilter": {
-        "tags": [],
-        "types": [
-          "RECIPE"
-        ],
-        "creator": [],
-        "customCreationDateRange": {
-          "from": 0,
-          "to": 0
-        },
-        "downstreamPredecessorsIds": [],
-        "datasetTypes": [
-          "PostgreSQL"
-        ],
-        "recipeTypes": []
-      },
-      "advancedFilter": "(type:RECIPE OR datasetType:PostgreSQL)",
-      "removeFadedElements": true,
-      "query": "(type:RECIPE OR datasetType:PostgreSQL)"
-    }
-  ]
+  "filters": []
 }
