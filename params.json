@@ -24,6 +24,15 @@
         "modes": [
           "READ"
         ]
+      },
+      {
+        "objectRef": {
+          "objectId": "slc5IV5D",
+          "objectType": "SAVED_MODEL"
+        },
+        "modes": [
+          "READ"
+        ]
       }
     ]
   },
@@ -199,6 +208,7 @@
     },
     "sparkEngineCreationSettings": {
       "useGlobal": true,
+      "executionEngine": "SPARK_SUBMIT",
       "useGlobalMetastore": false
     },
     "impalaEngineCreationSettings": {
@@ -253,6 +263,10 @@
       "impala": {
         "active": true
       },
+      "spark": {
+        "active": true,
+        "extraConf": []
+      },
       "python": {}
     },
     "displayedState": {
@@ -268,11 +282,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 19,
+    "versionNumber": 20,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1539618477901
+    "lastModifiedOn": 1541579859718
   },
   "creationTag": {
     "versionNumber": 0,
