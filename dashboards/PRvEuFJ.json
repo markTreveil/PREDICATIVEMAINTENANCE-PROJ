@@ -22,6 +22,25 @@
             "insightType": "saved-model_report",
             "displayMode": "INSIGHT",
             "resizeImageMode": "FIT_SIZE"
+          },
+          {
+            "tileType": "INSIGHT",
+            "box": {
+              "top": -1,
+              "left": -1,
+              "width": 8,
+              "height": 4
+            },
+            "clickAction": "DO_NOTHING",
+            "tileParams": {
+              "displayMode": "summary"
+            },
+            "autoLoad": true,
+            "showTitle": "YES",
+            "insightId": "WGLoi4l",
+            "insightType": "saved-model_report",
+            "displayMode": "INSIGHT",
+            "resizeImageMode": "FIT_SIZE"
           }
         ]
       },
@@ -33,11 +52,11 @@
   "name": "Default dashboard",
   "showGrid": true,
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1539618478890
+    "lastModifiedOn": 1541579860481
   },
   "creationTag": {
     "versionNumber": 0,

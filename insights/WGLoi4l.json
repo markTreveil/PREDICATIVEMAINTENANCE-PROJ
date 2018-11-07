@@ -1,0 +1,28 @@
+{
+  "type": "saved-model_report",
+  "params": {
+    "savedModelSmartId": "slc5IV5D"
+  },
+  "owner": "admin",
+  "listed": false,
+  "name": "Full report of model Prediction (RANDOM_FOREST_REGRESSION) on maintenance_part_consumption_prepared",
+  "dashboardCreationId": "PRvEuFJ",
+  "versionTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1541579860477
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1541579860477
+  },
+  "tags": [],
+  "checklists": {
+    "checklists": []
+  }
+}
