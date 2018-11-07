@@ -20,9 +20,9 @@
         "datasetTypes": [],
         "recipeTypes": []
       },
-      "advancedFilter": "name:maintenance",
+      "advancedFilter": "name:maint",
       "removeFadedElements": false,
-      "query": "name:maintenance"
+      "query": "name:maint"
     }
   ]
 }
