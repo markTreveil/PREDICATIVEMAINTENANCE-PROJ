@@ -11,7 +11,8 @@
       "structuredFlowObjectFilter": {
         "tags": [],
         "types": [
-          "RECIPE"
+          "RECIPE",
+          "SAVED_MODEL"
         ],
         "creator": [],
         "customCreationDateRange": {
@@ -23,7 +24,7 @@
         "recipeTypes": []
       },
       "removeFadedElements": false,
-      "query": "type:RECIPE"
+      "query": "(type:SAVED_MODEL OR type:RECIPE)"
     }
   ]
 }
