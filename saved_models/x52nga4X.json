@@ -41,6 +41,10 @@
       "impala": {
         "active": true
       },
+      "spark": {
+        "active": true,
+        "extraConf": []
+      },
       "python": {}
     },
     "displayedState": {
@@ -65,6 +69,9 @@
     "weight": {
       "weightMethod": "NO_WEIGHTING"
     },
+    "calibration": {
+      "calibrationMethod": "NO_CALIBRATION"
+    },
     "guessPolicy": "DEFAULT",
     "modeling": {
       "random_forest_regression": {
@@ -79,7 +86,6 @@
         "min_samples_leaf": [
           3
         ],
-        "selection_mode": "AUTO",
         "max_features": [
           0
         ],
@@ -97,7 +103,6 @@
         "min_samples_leaf": [
           3
         ],
-        "selection_mode": "AUTO",
         "max_features": [
           0
         ],
@@ -115,7 +120,6 @@
         "min_samples_leaf": [
           3
         ],
-        "selection_mode": "AUTO",
         "max_features": [
           0
         ],
@@ -134,7 +138,6 @@
         "min_samples_leaf": [
           3
         ],
-        "selection_mode": "AUTO",
         "max_features": [
           0
         ],
@@ -157,7 +160,6 @@
         "min_samples_leaf": [
           3
         ],
-        "selection_mode": "AUTO",
         "max_features": [
           0
         ],
@@ -235,13 +237,11 @@
           5
         ],
         "distance_weighting": false,
-        "algorithm": "AUTO",
         "p": 2,
         "leaf_size": 30
       },
       "logistic_regression": {
         "enabled": false,
-        "multi_class": "OVR",
         "l1": false,
         "l2": true,
         "C": [
@@ -598,8 +598,18 @@
     "containerSelection": {
       "containerMode": "INHERIT"
     },
-    "sparkPreparedDFStorageLevel": "MEMORY_AND_DISK",
-    "sparkRepartitionNonHDFS": 1,
+    "sparkParams": {
+      "sparkConf": {
+        "inheritConf": "default",
+        "conf": []
+      },
+      "sparkUseGlobalMetastore": false,
+      "sparkPreparedDFStorageLevel": "MEMORY_AND_DISK",
+      "sparkRepartitionNonHDFS": 1,
+      "pipelineAllowStart": true,
+      "pipelineAllowMerge": true,
+      "sparkExecutionEngine": "SPARK_SUBMIT"
+    },
     "sparkCheckpoint": "NONE",
     "skipExpensiveReports": false,
     "predictionDisplayScript": {
@@ -662,7 +672,7 @@
     },
     "lastModifiedOn": 1519047662503
   },
-  "shortDesc": "Predict what",
+  "shortDesc": "Predict what Shakespeare",
   "tags": [
     "One is 1"
   ],
