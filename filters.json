@@ -10,7 +10,8 @@
       "derivedFromFilterId": "-1",
       "structuredFlowObjectFilter": {
         "tags": [
-          "One is 1"
+          "One is 1",
+          "three is 3"
         ],
         "types": [
           "RECIPE",
@@ -26,7 +27,7 @@
         "recipeTypes": []
       },
       "removeFadedElements": false,
-      "query": "tag:\"One is 1\" AND (type:SAVED_MODEL OR type:RECIPE)"
+      "query": "(tag:\"One is 1\" OR tag:\"three is 3\") AND (type:SAVED_MODEL OR type:RECIPE)"
     }
   ]
 }
