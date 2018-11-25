@@ -223,7 +223,7 @@
     },
     "path": "/"
   },
-  "name": "Predicative Maintenance",
+  "name": "Predicative Maintenance - 23ds semi-complex",
   "projectStatus": "Gwoing gww-eight",
   "imgPattern": 1,
   "showInitials": false,
@@ -282,11 +282,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 20,
+    "versionNumber": 21,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1541579859718
+    "lastModifiedOn": 1543138581729
   },
   "creationTag": {
     "versionNumber": 0,
