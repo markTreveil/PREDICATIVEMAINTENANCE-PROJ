@@ -20,6 +20,7 @@
         "readParams": {
           "map": {}
         },
+        "executionEngine": "SPARK_SUBMIT",
         "pipelineAllowMerge": true,
         "pipelineAllowStart": true
       },
@@ -76,7 +77,7 @@
     "lastModifiedOn": 1521535508568
   },
   "tags": [
-    "One is 1"
+    "Experimental"
   ],
   "checklists": {
     "checklists": []

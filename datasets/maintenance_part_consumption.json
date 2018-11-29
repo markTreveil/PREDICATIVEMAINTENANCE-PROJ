@@ -73,9 +73,9 @@
     "lastModifiedOn": 1519039590380
   },
   "tags": [
-    "One is 1",
-    "Two is 2",
-    "three is 3"
+    "Experimental",
+    "Deprecated",
+    "Dashboard data generation"
   ],
   "params": {
     "uploadConnection": "Default (in DSS data dir.)",

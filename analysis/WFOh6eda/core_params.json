@@ -47,11 +47,11 @@
   "charts": [],
   "name": "Predict failure_bin on train",
   "versionTag": {
-    "versionNumber": 2,
+    "versionNumber": 3,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1535715731831
+    "lastModifiedOn": 1543483202063
   },
   "creationTag": {
     "versionNumber": 0,
@@ -62,7 +62,7 @@
   },
   "shortDesc": "Analysis short desc",
   "tags": [
-    "One is 1"
+    "Experimental"
   ],
   "checklists": {
     "checklists": []

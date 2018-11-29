@@ -11,6 +11,7 @@
           "inheritConf": "default",
           "conf": []
         },
+        "executionEngine": "SPARK_SUBMIT",
         "readParams": {
           "map": {}
         },
@@ -60,7 +61,7 @@
     "lastModifiedOn": 1519044108866
   },
   "tags": [
-    "One is 1"
+    "Experimental"
   ],
   "checklists": {
     "checklists": []

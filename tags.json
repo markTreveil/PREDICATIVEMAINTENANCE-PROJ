@@ -1,13 +1,19 @@
 {
   "tags": {
-    "Two is 2": {
+    "In Production": {
+      "color": "#00a55a"
+    },
+    "Deprecated": {
       "color": "#90a8b7"
     },
-    "One is 1": {
+    "Experimental": {
       "color": "#0f6d82"
     },
-    "three is 3": {},
-    "three": {},
-    "four": {}
+    "Dashboard data generation": {
+      "color": "#28aadd"
+    },
+    "Data prep": {
+      "color": "#ee874a"
+    }
   }
 }

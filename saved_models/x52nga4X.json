@@ -86,6 +86,7 @@
         "min_samples_leaf": [
           3
         ],
+        "selection_mode": "AUTO",
         "max_features": [
           0
         ],
@@ -103,6 +104,7 @@
         "min_samples_leaf": [
           3
         ],
+        "selection_mode": "AUTO",
         "max_features": [
           0
         ],
@@ -120,6 +122,7 @@
         "min_samples_leaf": [
           3
         ],
+        "selection_mode": "AUTO",
         "max_features": [
           0
         ],
@@ -138,6 +141,7 @@
         "min_samples_leaf": [
           3
         ],
+        "selection_mode": "AUTO",
         "max_features": [
           0
         ],
@@ -160,6 +164,7 @@
         "min_samples_leaf": [
           3
         ],
+        "selection_mode": "AUTO",
         "max_features": [
           0
         ],
@@ -237,11 +242,13 @@
           5
         ],
         "distance_weighting": false,
+        "algorithm": "AUTO",
         "p": 2,
         "leaf_size": 30
       },
       "logistic_regression": {
         "enabled": false,
+        "multi_class": "OVR",
         "l1": false,
         "l2": true,
         "C": [
@@ -674,7 +681,7 @@
   },
   "shortDesc": "Predict what Shakespeare",
   "tags": [
-    "One is 1"
+    "Experimental"
   ],
   "checklists": {
     "checklists": []

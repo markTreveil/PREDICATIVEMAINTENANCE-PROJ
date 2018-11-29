@@ -42,9 +42,9 @@
     "lastModifiedOn": 1519044108851
   },
   "tags": [
-    "One is 1",
-    "three",
-    "four"
+    "Experimental",
+    "Data prep",
+    "In Production"
   ],
   "params": {
     "writeWithCopyBadDataBehavior": "NOVERIFY_ERROR",
