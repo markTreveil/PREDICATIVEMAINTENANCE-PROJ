@@ -68,6 +68,7 @@
           }
         ]
       },
+      "title": "xxx",
       "showTitle": false
     },
     {
@@ -83,11 +84,11 @@
   "name": "Default dashboard",
   "showGrid": true,
   "versionTag": {
-    "versionNumber": 11,
+    "versionNumber": 12,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1543853840297
+    "lastModifiedOn": 1543853846749
   },
   "creationTag": {
     "versionNumber": 0,
