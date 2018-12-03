@@ -83,11 +83,11 @@
   "name": "Default dashboard",
   "showGrid": true,
   "versionTag": {
-    "versionNumber": 10,
+    "versionNumber": 11,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1543850684308
+    "lastModifiedOn": 1543853840297
   },
   "creationTag": {
     "versionNumber": 0,
