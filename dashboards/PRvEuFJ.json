@@ -45,6 +45,13 @@
         ]
       },
       "showTitle": false
+    },
+    {
+      "id": "QDdydaI",
+      "grid": {
+        "tiles": []
+      },
+      "showTitle": false
     }
   ],
   "owner": "admin",
@@ -52,11 +59,11 @@
   "name": "Default dashboard",
   "showGrid": true,
   "versionTag": {
-    "versionNumber": 7,
+    "versionNumber": 8,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1543850439147
+    "lastModifiedOn": 1543850451614
   },
   "creationTag": {
     "versionNumber": 0,
