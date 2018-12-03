@@ -140,7 +140,8 @@
           "id": "x52nga4X"
         }
       ],
-      "includedManagedFolders": []
+      "includedManagedFolders": [],
+      "shareAllInputDatasets": false
     }
   },
   "owner": "admin",
@@ -223,7 +224,7 @@
     },
     "path": "/"
   },
-  "name": "Predicative Maintenance - 23ds semi-complex",
+  "name": "Predicative Maintenance - 23ds semi-complexx",
   "projectStatus": "Gwoing gww-eight",
   "imgPattern": 1,
   "showInitials": false,
@@ -282,11 +283,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 22,
+    "versionNumber": 23,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1543500118594
+    "lastModifiedOn": 1543849091133
   },
   "creationTag": {
     "versionNumber": 0,
@@ -297,6 +298,7 @@
   },
   "shortDesc": "The project *Predicative Maintenance* was created by Local administrator on Feb 19th 2018",
   "tags": [],
+  "customFields": {},
   "checklists": {
     "checklists": [
       {
