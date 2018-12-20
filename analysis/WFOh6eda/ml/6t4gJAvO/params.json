@@ -5,6 +5,9 @@
     "weightMethod": "SAMPLE_WEIGHT",
     "sampleWeightVariable": "R417_sum"
   },
+  "calibration": {
+    "calibrationMethod": "NO_CALIBRATION"
+  },
   "guessPolicy": "DEFAULT",
   "splitParams": {
     "ttPolicy": "SPLIT_SINGLE_DATASET",
@@ -258,7 +261,7 @@
         "quantile_bin_nb_bins": 4,
         "binarize_threshold_mode": "MEDIAN",
         "binarize_constant_threshold": 0.0,
-        "role": "INPUT",
+        "role": "REJECT",
         "type": "NUMERIC",
         "state": {
           "userModified": false,
@@ -850,7 +853,9 @@
       "base_score": 0.5,
       "impute_missing": false,
       "missing": 0.0,
-      "tree_method": "auto",
+      "cpu_tree_method": "auto",
+      "gpu_tree_method": "gpu_exact",
+      "enable_cuda": false,
       "seed": 1337,
       "enable_early_stopping": true,
       "early_stopping_rounds": 4
@@ -1013,8 +1018,18 @@
   "containerSelection": {
     "containerMode": "INHERIT"
   },
-  "sparkPreparedDFStorageLevel": "MEMORY_AND_DISK",
-  "sparkRepartitionNonHDFS": 1,
+  "sparkParams": {
+    "sparkConf": {
+      "inheritConf": "default",
+      "conf": []
+    },
+    "sparkUseGlobalMetastore": false,
+    "sparkPreparedDFStorageLevel": "MEMORY_AND_DISK",
+    "sparkRepartitionNonHDFS": 1,
+    "pipelineAllowStart": true,
+    "pipelineAllowMerge": true,
+    "sparkExecutionEngine": "SPARK_SUBMIT"
+  },
   "sparkCheckpoint": "NONE",
   "skipExpensiveReports": false,
   "predictionDisplayScript": {
