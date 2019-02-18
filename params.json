@@ -231,7 +231,7 @@
     "cluster": {
       "clusterMode": "INHERIT"
     },
-    "path": "/"
+    "path": "/Move 6"
   },
   "name": "Predicative Maintenance - 23ds semi-complexx",
   "projectStatus": "Gwoing gww-eight",
@@ -292,11 +292,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 24,
+    "versionNumber": 25,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1543850678870
+    "lastModifiedOn": 1550501950913
   },
   "creationTag": {
     "versionNumber": 0,
