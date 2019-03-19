@@ -189,11 +189,11 @@
   ],
   "name": "Predict failure_bin on train",
   "versionTag": {
-    "versionNumber": 6,
+    "versionNumber": 7,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1552998575044
+    "lastModifiedOn": 1552999238906
   },
   "creationTag": {
     "versionNumber": 0,
