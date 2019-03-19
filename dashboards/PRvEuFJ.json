@@ -69,8 +69,8 @@
           {
             "tileType": "INSIGHT",
             "box": {
-              "top": -1,
-              "left": -1,
+              "top": 8,
+              "left": 6,
               "width": 2,
               "height": 2
             },
@@ -107,11 +107,11 @@
   "name": "Default dashboard",
   "showGrid": true,
   "versionTag": {
-    "versionNumber": 14,
+    "versionNumber": 15,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1552988180856
+    "lastModifiedOn": 1552989816150
   },
   "creationTag": {
     "versionNumber": 0,
