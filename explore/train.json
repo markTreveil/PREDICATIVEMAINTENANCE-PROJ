@@ -48,7 +48,7 @@
       "copySelectionFromScript": true,
       "engineType": "LINO",
       "def": {
-        "type": "grouped_columns",
+        "type": "stacked_bars",
         "variant": "normal",
         "name": "Count by Asset",
         "userEditedName": false,
@@ -181,6 +181,7 @@
           "gridLonDeg": 0.5,
           "gridLatDeg": 0.5
         },
+        "thumbnailData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAoCAYAAACiu5n/AAAAbElEQVRoQ+3UURWAMAzF0E0JMjHGP9YQMBSktw5ektO9ht0etncZXDfOMMMxApKOCT3mMMxwjICkY0I9LUlLOkZA0jGhvrSkJR0jIOmYUF9a0pKOEZB0TKgvLenxSV/385YgSLpk828Lw3XDH3doAjJJ6TeNAAAAAElFTkSuQmCC",
         "disableSafetyLimits": false,
         "useLiveProcessingIfAvailable": true,
         "legendPlacement": "OUTER_RIGHT"
