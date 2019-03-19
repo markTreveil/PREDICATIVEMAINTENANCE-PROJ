@@ -44,8 +44,7 @@
   "tags": [
     "Data prep",
     "Deprecated",
-    "Dashboard data generation",
-    "Experimental"
+    "Dashboard data generation"
   ],
   "params": {
     "writeWithCopyBadDataBehavior": "NOVERIFY_ERROR",
