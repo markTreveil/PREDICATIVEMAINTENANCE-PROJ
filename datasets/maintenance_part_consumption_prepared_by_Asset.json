@@ -41,9 +41,7 @@
     },
     "lastModifiedOn": 1519044150217
   },
-  "tags": [
-    "Experimental"
-  ],
+  "tags": [],
   "params": {
     "writeWithCopyBadDataBehavior": "NOVERIFY_ERROR",
     "connection": "Postgres",
@@ -188,5 +186,6 @@
     "displayedState": {
       "checks": []
     }
-  }
+  },
+  "customFields": {}
 }
