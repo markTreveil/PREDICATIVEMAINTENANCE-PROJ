@@ -42,6 +42,15 @@
         "modes": [
           "READ"
         ]
+      },
+      {
+        "objectRef": {
+          "objectId": "train",
+          "objectType": "DATASET"
+        },
+        "modes": [
+          "READ"
+        ]
       }
     ]
   },
@@ -292,11 +301,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 25,
+    "versionNumber": 26,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1550501950913
+    "lastModifiedOn": 1552988179429
   },
   "creationTag": {
     "versionNumber": 0,
