@@ -28,11 +28,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 2,
+    "versionNumber": 3,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1551949595338
+    "lastModifiedOn": 1556697580469
   },
   "creationTag": {
     "versionNumber": 0,
@@ -127,10 +127,6 @@
       },
       {
         "name": "R606_sum",
-        "type": "bigint"
-      },
-      {
-        "name": "count",
         "type": "bigint"
       }
     ],
