@@ -28,11 +28,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1519047827080
+    "lastModifiedOn": 1556697655799
   },
   "creationTag": {
     "versionNumber": 0,
@@ -57,8 +57,93 @@
     "readSQLDateColsAsDSSDates": true
   },
   "schema": {
-    "userModified": true,
-    "columns": []
+    "columns": [
+      {
+        "name": "Asset",
+        "type": "string"
+      },
+      {
+        "name": "failure_bin",
+        "type": "bigint"
+      },
+      {
+        "name": "Time_min",
+        "type": "bigint"
+      },
+      {
+        "name": "Use_min",
+        "type": "double"
+      },
+      {
+        "name": "distance",
+        "type": "double"
+      },
+      {
+        "name": "measures_count",
+        "type": "bigint"
+      },
+      {
+        "name": "R417_sum",
+        "type": "bigint"
+      },
+      {
+        "name": "R707_sum",
+        "type": "bigint"
+      },
+      {
+        "name": "R193_sum",
+        "type": "bigint"
+      },
+      {
+        "name": "R565_sum",
+        "type": "bigint"
+      },
+      {
+        "name": "R783_sum",
+        "type": "bigint"
+      },
+      {
+        "name": "R364_sum",
+        "type": "bigint"
+      },
+      {
+        "name": "R446_sum",
+        "type": "bigint"
+      },
+      {
+        "name": "R119_sum",
+        "type": "bigint"
+      },
+      {
+        "name": "R044_sum",
+        "type": "bigint"
+      },
+      {
+        "name": "R575_sum",
+        "type": "bigint"
+      },
+      {
+        "name": "R606_sum",
+        "type": "bigint"
+      },
+      {
+        "name": "count",
+        "type": "bigint"
+      },
+      {
+        "name": "proba_0",
+        "type": "double"
+      },
+      {
+        "name": "proba_1",
+        "type": "double"
+      },
+      {
+        "name": "prediction",
+        "type": "string"
+      }
+    ],
+    "userModified": true
   },
   "metrics": {
     "probes": [
@@ -133,5 +218,6 @@
     "displayedState": {
       "checks": []
     }
-  }
+  },
+  "customFields": {}
 }
