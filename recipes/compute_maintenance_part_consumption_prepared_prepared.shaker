@@ -2,9 +2,8 @@
   "columnsSelection": {
     "mode": "ALL"
   },
-  "analysisColumnData": {},
   "explorationSampling": {
-    "_refreshTrigger": 0,
+    "_refreshTrigger": 1,
     "selection": {
       "filter": {
         "distinct": false,
@@ -13,8 +12,13 @@
       "latestPartitionsN": 1,
       "maxRecords": 10000,
       "ordering": {
-        "rules": [],
-        "enabled": false
+        "rules": [
+          {
+            "asc": true,
+            "columnName": "R707"
+          }
+        ],
+        "enabled": true
       },
       "withinFirstN": -1,
       "partitionSelectionMethod": "ALL",
@@ -26,13 +30,9 @@
     "autoRefreshSample": false
   },
   "explorationFilters": [],
-  "sorting": [],
-  "exploreUIParams": {},
-  "globalSearchQuery": "",
-  "coloring": {
-    "scheme": "MEANING_AND_STATUS",
-    "individualColumns": [],
-    "valueColoringMode": "HASH"
+  "origin": "PREPARE_RECIPE",
+  "exploreUIParams": {
+    "autoRefresh": true
   },
   "steps": [],
   "maxProcessedMemTableBytes": -1,
@@ -40,5 +40,13 @@
   "vizSampling": {
     "_refreshTrigger": 0,
     "autoRefreshSample": false
+  },
+  "analysisColumnData": {},
+  "sorting": [],
+  "globalSearchQuery": "",
+  "coloring": {
+    "scheme": "MEANING_AND_STATUS",
+    "individualColumns": [],
+    "valueColoringMode": "HASH"
   }
 }

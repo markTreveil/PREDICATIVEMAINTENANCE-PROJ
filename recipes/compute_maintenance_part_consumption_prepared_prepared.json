@@ -6,7 +6,12 @@
     "engineParams": {
       "spark": {
         "readParams": {
-          "map": {}
+          "map": {
+            "maintenance_part_consumption_prepared": {
+              "repartition": 10,
+              "cache": false
+            }
+          }
         },
         "useGlobalMetastore": false,
         "useNativeProcessors": true,
@@ -63,11 +68,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1561369390933
+    "lastModifiedOn": 1561369418601
   },
   "creationTag": {
     "versionNumber": 0,
