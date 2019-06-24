@@ -3,7 +3,7 @@
     "mode": "ALL"
   },
   "explorationSampling": {
-    "_refreshTrigger": 1,
+    "_refreshTrigger": 5,
     "selection": {
       "filter": {
         "distinct": false,
@@ -18,7 +18,7 @@
             "columnName": "R707"
           }
         ],
-        "enabled": true
+        "enabled": false
       },
       "withinFirstN": -1,
       "partitionSelectionMethod": "ALL",
