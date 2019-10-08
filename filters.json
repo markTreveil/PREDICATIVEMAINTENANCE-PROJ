@@ -10,7 +10,11 @@
       "derivedFromFilterId": "-2",
       "structuredFlowObjectFilter": {
         "tags": [
-          "Experimental"
+          "Experimental",
+          "Dashboard data generation",
+          "Data prep",
+          "Deprecated",
+          "In Production"
         ],
         "types": [],
         "creator": [],
@@ -27,8 +31,8 @@
         "datasetTypes": [],
         "recipeTypes": []
       },
-      "removeFadedElements": true,
-      "query": "tag:Experimental AND created:PAST_MONTH"
+      "removeFadedElements": false,
+      "query": "(tag:Experimental OR tag:\"Dashboard data generation\" OR tag:\"Data prep\" OR tag:Deprecated OR tag:\"In Production\") AND created:PAST_MONTH"
     }
   ]
 }
