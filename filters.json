@@ -9,7 +9,9 @@
       "creationDate": 1570523062174,
       "derivedFromFilterId": "-2",
       "structuredFlowObjectFilter": {
-        "tags": [],
+        "tags": [
+          "Experimental"
+        ],
         "types": [],
         "creator": [],
         "customCreationDateRange": {
@@ -26,7 +28,7 @@
       },
       "advancedFilter": "created:PAST_MONTH",
       "removeFadedElements": false,
-      "query": ""
+      "query": "tag:Experimental"
     }
   ]
 }
