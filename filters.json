@@ -9,10 +9,7 @@
       "creationDate": 1570523062174,
       "derivedFromFilterId": "-2",
       "structuredFlowObjectFilter": {
-        "tags": [
-          "Experimental",
-          "Dashboard data generation"
-        ],
+        "tags": [],
         "types": [],
         "creator": [],
         "customCreationDateRange": {
@@ -29,7 +26,7 @@
       },
       "advancedFilter": "created:PAST_MONTH",
       "removeFadedElements": true,
-      "query": "(tag:Experimental OR tag:\"Dashboard data generation\")"
+      "query": ""
     }
   ]
 }
