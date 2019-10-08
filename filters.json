@@ -10,7 +10,8 @@
       "derivedFromFilterId": "-2",
       "structuredFlowObjectFilter": {
         "tags": [
-          "Experimental"
+          "Experimental",
+          "Dashboard data generation"
         ],
         "types": [],
         "creator": [],
@@ -28,7 +29,7 @@
       },
       "advancedFilter": "created:PAST_MONTH",
       "removeFadedElements": true,
-      "query": "tag:Experimental"
+      "query": "(tag:Experimental OR tag:\"Dashboard data generation\")"
     }
   ]
 }
