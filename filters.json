@@ -12,7 +12,6 @@
         "tags": [],
         "types": [],
         "creator": [],
-        "creationDateRange": "PAST_MONTH",
         "customCreationDateRange": {
           "from": 0,
           "to": 0
@@ -25,8 +24,9 @@
         "datasetTypes": [],
         "recipeTypes": []
       },
+      "advancedFilter": "created:PAST_MONTH",
       "removeFadedElements": false,
-      "query": "created:PAST_MONTH"
+      "query": ""
     }
   ]
 }
