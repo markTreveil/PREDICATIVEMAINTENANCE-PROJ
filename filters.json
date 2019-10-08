@@ -27,7 +27,7 @@
         "recipeTypes": []
       },
       "advancedFilter": "created:PAST_MONTH",
-      "removeFadedElements": false,
+      "removeFadedElements": true,
       "query": "tag:Experimental"
     }
   ]
