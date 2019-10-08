@@ -9,13 +9,7 @@
       "creationDate": 1570523062174,
       "derivedFromFilterId": "-2",
       "structuredFlowObjectFilter": {
-        "tags": [
-          "Experimental",
-          "Dashboard data generation",
-          "Data prep",
-          "Deprecated",
-          "In Production"
-        ],
+        "tags": [],
         "types": [],
         "creator": [],
         "creationDateRange": "PAST_MONTH",
@@ -32,7 +26,7 @@
         "recipeTypes": []
       },
       "removeFadedElements": false,
-      "query": "(tag:Experimental OR tag:\"Dashboard data generation\" OR tag:\"Data prep\" OR tag:Deprecated OR tag:\"In Production\") AND created:PAST_MONTH"
+      "query": "created:PAST_MONTH"
     }
   ]
 }
