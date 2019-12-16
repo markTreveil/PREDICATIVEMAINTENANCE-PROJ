@@ -2,14 +2,28 @@
   "analyzedDataset": "usage_by_Asset_prepared",
   "connection": "Postgres",
   "name": "admin\u0027s notebook on usage_by_Asset_prepared",
-  "cells": [],
+  "cells": [
+    {
+      "id": "hf95urxzxm6",
+      "type": "QUERY",
+      "querySettings": {
+        "addLimitToStatement": true,
+        "statementsOutOfTransaction": false,
+        "inheritConf": "default",
+        "extraConf": [],
+        "addDkuUdf": false,
+        "statementsParseMode": "SPLIT",
+        "statementsExecutionMode": "PREPARED"
+      }
+    }
+  ],
   "automationLocal": false,
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1576499851187
+    "lastModifiedOn": 1576499882836
   },
   "creationTag": {
     "versionNumber": 0,
