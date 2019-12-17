@@ -1,0 +1,26 @@
+{
+  "name": "aa",
+  "layout": "WIKI_ARTICLE",
+  "attachments": [],
+  "versionTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1576600366651
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1576600366651
+  },
+  "tags": [],
+  "customFields": {
+    "irecommend_rating": ""
+  },
+  "checklists": {
+    "checklists": []
+  }
+}
