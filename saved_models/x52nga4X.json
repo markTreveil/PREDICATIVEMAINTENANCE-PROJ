@@ -2,8 +2,18 @@
   "publishPolicy": "UNCONDITIONAL",
   "rebuildBehavior": "EXPLICIT",
   "name": "Prediction (RANDOM_FOREST_CLASSIFICATION) on train",
-  "activeVersion": "initial",
+  "activeVersion": "1578060430492",
   "conditionalOutputs": [],
+  "partitioning": {
+    "ignoreNonMatchingFile": false,
+    "considerMissingRequestedPartitionsAsEmpty": false,
+    "dimensions": []
+  },
+  "flowOptions": {
+    "virtualizable": false,
+    "rebuildBehavior": "NORMAL",
+    "crossProjectBuildBehavior": "DEFAULT"
+  },
   "lastExportedFrom": "A-PREDICATIVEMAINTENANCE-WFOh6eda-6t4gJAvO-s1-pp1-m1",
   "metrics": {
     "probes": [],
@@ -69,11 +79,16 @@
     "weight": {
       "weightMethod": "NO_WEIGHTING"
     },
+    "time": {
+      "enabled": false,
+      "ascending": true
+    },
     "calibration": {
       "calibrationMethod": "NO_CALIBRATION"
     },
     "guessPolicy": "DEFAULT",
     "modeling": {
+      "skipExpensiveReports": false,
       "random_forest_regression": {
         "enabled": false,
         "n_estimators": [
@@ -86,7 +101,6 @@
         "min_samples_leaf": [
           3
         ],
-        "selection_mode": "AUTO",
         "max_features": [
           0
         ],
@@ -104,7 +118,6 @@
         "min_samples_leaf": [
           3
         ],
-        "selection_mode": "AUTO",
         "max_features": [
           0
         ],
@@ -122,7 +135,6 @@
         "min_samples_leaf": [
           3
         ],
-        "selection_mode": "AUTO",
         "max_features": [
           0
         ],
@@ -141,7 +153,6 @@
         "min_samples_leaf": [
           3
         ],
-        "selection_mode": "AUTO",
         "max_features": [
           0
         ],
@@ -164,7 +175,6 @@
         "min_samples_leaf": [
           3
         ],
-        "selection_mode": "AUTO",
         "max_features": [
           0
         ],
@@ -242,13 +252,11 @@
           5
         ],
         "distance_weighting": false,
-        "algorithm": "AUTO",
         "p": 2,
         "leaf_size": 30
       },
       "logistic_regression": {
         "enabled": false,
-        "multi_class": "OVR",
         "l1": false,
         "l2": true,
         "C": [
@@ -545,6 +553,7 @@
         "checkpoint_interval": 10
       },
       "custom_python": [],
+      "plugin_python": {},
       "keras": {
         "epochs": 10,
         "batchSize": 32,
@@ -606,19 +615,13 @@
       "containerMode": "INHERIT"
     },
     "sparkParams": {
-      "sparkConf": {
-        "inheritConf": "default",
-        "conf": []
-      },
       "sparkUseGlobalMetastore": false,
-      "sparkPreparedDFStorageLevel": "MEMORY_AND_DISK",
       "sparkRepartitionNonHDFS": 1,
       "pipelineAllowStart": true,
       "pipelineAllowMerge": true,
       "sparkExecutionEngine": "SPARK_SUBMIT"
     },
     "sparkCheckpoint": "NONE",
-    "skipExpensiveReports": false,
     "predictionDisplayScript": {
       "steps": [],
       "maxProcessedMemTableBytes": -1,
@@ -663,14 +666,35 @@
       "explorationFilters": [],
       "previewMode": "ALL_ROWS"
     },
-    "predictionDisplayCharts": []
+    "predictionDisplayCharts": [],
+    "partitionedModel": {
+      "enabled": false,
+      "ssdSelection": {
+        "useMemTable": false,
+        "filter": {
+          "distinct": false,
+          "enabled": false
+        },
+        "partitionSelectionMethod": "ALL",
+        "latestPartitionsN": 1,
+        "ordering": {
+          "enabled": false,
+          "rules": []
+        },
+        "samplingMethod": "FULL",
+        "maxRecords": -1,
+        "targetRatio": 0.02,
+        "withinFirstN": -1,
+        "maxReadUncompressedBytes": -1
+      }
+    }
   },
   "versionTag": {
-    "versionNumber": 3,
+    "versionNumber": 4,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1535717304990
+    "lastModifiedOn": 1578060482101
   },
   "creationTag": {
     "versionNumber": 0,
@@ -683,6 +707,7 @@
   "tags": [
     "Experimental"
   ],
+  "customFields": {},
   "checklists": {
     "checklists": []
   }
