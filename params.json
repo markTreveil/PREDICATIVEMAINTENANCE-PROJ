@@ -148,6 +148,7 @@
     ]
   },
   "projectType": "REGULAR",
+  "projectAppType": "REGULAR",
   "bundleExporterSettings": {
     "exportOptions": {
       "exportUploads": false,
@@ -186,7 +187,9 @@
     },
     "flowBuildSettings": {
       "mergeSparkPipelines": false,
-      "pruneBeforeSparkPipelines": true
+      "pruneBeforeSparkPipelines": true,
+      "mergeSqlPipelines": false,
+      "pruneBeforeSqlPipelines": true
     },
     "limitsSettings": {
       "memSampleBytes": {
@@ -219,6 +222,10 @@
       "r": {
         "useBuiltinEnv": true,
         "preventOverride": false
+      },
+      "julia": {
+        "useBuiltinEnv": true,
+        "preventOverride": false
       }
     },
     "container": {
@@ -249,7 +256,30 @@
     "cluster": {
       "clusterMode": "INHERIT"
     },
-    "path": "/Move 6"
+    "k8sCluster": {
+      "clusterMode": "INHERIT"
+    },
+    "virtualWebAppBackendSettings": {
+      "mode": "INHERIT",
+      "preventOverride": false,
+      "infra": {
+        "containerSelection": {
+          "containerMode": "INHERIT"
+        },
+        "overrideGlobalK8sExposition": false,
+        "exposition": {
+          "type": "local_process",
+          "params": {}
+        },
+        "scaling": {
+          "initialReplicas": 1,
+          "hpa": false,
+          "hpaTargetCPUPercent": 0,
+          "hpaMinPods": 0,
+          "hpaMaxPods": 0
+        }
+      }
+    }
   },
   "name": "Predicative Maintenance - 23ds semi-complexx",
   "projectStatus": "Gwoing gww-eight",
@@ -310,11 +340,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 27,
+    "versionNumber": 28,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1552989832371
+    "lastModifiedOn": 1585822661765
   },
   "creationTag": {
     "versionNumber": 0,
