@@ -163,11 +163,7 @@
       "exportInsightsData": false,
       "useManualPluginsInfo": false,
       "includedDatasetsData": [],
-      "includedSavedModels": [
-        {
-          "id": "x52nga4X"
-        }
-      ],
+      "includedSavedModels": [],
       "includedManagedFolders": [],
       "shareAllInputDatasets": false
     }
@@ -340,11 +336,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 28,
+    "versionNumber": 29,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1585822661765
+    "lastModifiedOn": 1588193177560
   },
   "creationTag": {
     "versionNumber": 0,
